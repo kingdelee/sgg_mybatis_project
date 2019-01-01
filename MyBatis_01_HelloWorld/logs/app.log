@@ -1,0 +1,174 @@
+2018-12-31 at 15:25:14 CST DEBUG org.apache.ibatis.logging.LogFactory 135 setImplementation - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2018-12-31 at 15:25:14 CST DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource 335 forceCloseAll - PooledDataSource forcefully closed/removed all connections.
+2018-12-31 at 15:25:14 CST DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource 335 forceCloseAll - PooledDataSource forcefully closed/removed all connections.
+2018-12-31 at 15:25:14 CST DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource 335 forceCloseAll - PooledDataSource forcefully closed/removed all connections.
+2018-12-31 at 15:25:14 CST DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource 335 forceCloseAll - PooledDataSource forcefully closed/removed all connections.
+2018-12-31 at 15:29:37 CST DEBUG org.apache.ibatis.logging.LogFactory 135 setImplementation - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2018-12-31 at 15:29:37 CST DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource 335 forceCloseAll - PooledDataSource forcefully closed/removed all connections.
+2018-12-31 at 15:29:37 CST DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource 335 forceCloseAll - PooledDataSource forcefully closed/removed all connections.
+2018-12-31 at 15:29:37 CST DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource 335 forceCloseAll - PooledDataSource forcefully closed/removed all connections.
+2018-12-31 at 15:29:37 CST DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource 335 forceCloseAll - PooledDataSource forcefully closed/removed all connections.
+2018-12-31 at 15:38:32 CST DEBUG org.apache.ibatis.logging.LogFactory 135 setImplementation - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2018-12-31 at 15:38:32 CST DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource 335 forceCloseAll - PooledDataSource forcefully closed/removed all connections.
+2018-12-31 at 15:38:32 CST DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource 335 forceCloseAll - PooledDataSource forcefully closed/removed all connections.
+2018-12-31 at 15:38:32 CST DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource 335 forceCloseAll - PooledDataSource forcefully closed/removed all connections.
+2018-12-31 at 15:38:32 CST DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource 335 forceCloseAll - PooledDataSource forcefully closed/removed all connections.
+2018-12-31 at 15:38:59 CST DEBUG org.apache.ibatis.logging.LogFactory 135 setImplementation - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2018-12-31 at 15:38:59 CST DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource 335 forceCloseAll - PooledDataSource forcefully closed/removed all connections.
+2018-12-31 at 15:38:59 CST DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource 335 forceCloseAll - PooledDataSource forcefully closed/removed all connections.
+2018-12-31 at 15:38:59 CST DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource 335 forceCloseAll - PooledDataSource forcefully closed/removed all connections.
+2018-12-31 at 15:38:59 CST DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource 335 forceCloseAll - PooledDataSource forcefully closed/removed all connections.
+2018-12-31 at 15:38:59 CST DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction 137 openConnection - Opening JDBC Connection
+2018-12-31 at 15:38:59 CST DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource 406 popConnection - Created connection 1774795940.
+2018-12-31 at 15:38:59 CST DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction 101 setDesiredAutoCommit - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@69c93ca4]
+2018-12-31 at 15:38:59 CST DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger 159 debug - ==>  Preparing: select id,last_name lastName,email,gender from tbl_employee where id = ? 
+2018-12-31 at 15:38:59 CST DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger 159 debug - ==> Parameters: 1(Integer)
+2018-12-31 at 15:38:59 CST TRACE org.apache.ibatis.logging.jdbc.BaseJdbcLogger 165 trace - <==    Columns: id, lastName, email, gender
+2018-12-31 at 15:38:59 CST TRACE org.apache.ibatis.logging.jdbc.BaseJdbcLogger 165 trace - <==        Row: 1, tom, tom@atgui.com, 0
+2018-12-31 at 15:38:59 CST DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger 159 debug - <==      Total: 1
+2018-12-31 at 15:38:59 CST DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction 123 resetAutoCommit - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@69c93ca4]
+2018-12-31 at 15:38:59 CST DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction 91 close - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@69c93ca4]
+2018-12-31 at 15:38:59 CST DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource 363 pushConnection - Returned connection 1774795940 to pool.
+2018-12-31 at 15:40:48 CST DEBUG org.apache.ibatis.logging.LogFactory 135 setImplementation - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2018-12-31 at 15:40:48 CST DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource 335 forceCloseAll - PooledDataSource forcefully closed/removed all connections.
+2018-12-31 at 15:40:48 CST DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource 335 forceCloseAll - PooledDataSource forcefully closed/removed all connections.
+2018-12-31 at 15:40:48 CST DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource 335 forceCloseAll - PooledDataSource forcefully closed/removed all connections.
+2018-12-31 at 15:40:48 CST DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource 335 forceCloseAll - PooledDataSource forcefully closed/removed all connections.
+2018-12-31 at 15:40:48 CST DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction 137 openConnection - Opening JDBC Connection
+2018-12-31 at 15:40:48 CST DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource 406 popConnection - Created connection 1893987183.
+2018-12-31 at 15:40:48 CST DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction 101 setDesiredAutoCommit - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@70e3f36f]
+2018-12-31 at 15:40:48 CST DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger 159 debug - ==>  Preparing: select id,last_name lastName,email,gender from tbl_employee where id = ? 
+2018-12-31 at 15:40:48 CST DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger 159 debug - ==> Parameters: 1(Integer)
+2018-12-31 at 15:40:48 CST TRACE org.apache.ibatis.logging.jdbc.BaseJdbcLogger 165 trace - <==    Columns: id, lastName, email, gender
+2018-12-31 at 15:40:48 CST TRACE org.apache.ibatis.logging.jdbc.BaseJdbcLogger 165 trace - <==        Row: 1, tom, tom@atgui.com, 0
+2018-12-31 at 15:40:48 CST DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger 159 debug - <==      Total: 1
+2018-12-31 at 15:40:48 CST DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction 123 resetAutoCommit - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@70e3f36f]
+2018-12-31 at 15:40:48 CST DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction 91 close - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@70e3f36f]
+2018-12-31 at 15:40:48 CST DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource 363 pushConnection - Returned connection 1893987183 to pool.
+2018-12-31 at 15:41:14 CST DEBUG org.apache.ibatis.logging.LogFactory 135 setImplementation - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2018-12-31 at 15:41:14 CST DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource 335 forceCloseAll - PooledDataSource forcefully closed/removed all connections.
+2018-12-31 at 15:41:14 CST DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource 335 forceCloseAll - PooledDataSource forcefully closed/removed all connections.
+2018-12-31 at 15:41:14 CST DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource 335 forceCloseAll - PooledDataSource forcefully closed/removed all connections.
+2018-12-31 at 15:41:14 CST DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource 335 forceCloseAll - PooledDataSource forcefully closed/removed all connections.
+2018-12-31 at 15:41:39 CST DEBUG org.apache.ibatis.logging.LogFactory 135 setImplementation - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2018-12-31 at 15:41:39 CST DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource 335 forceCloseAll - PooledDataSource forcefully closed/removed all connections.
+2018-12-31 at 15:41:39 CST DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource 335 forceCloseAll - PooledDataSource forcefully closed/removed all connections.
+2018-12-31 at 15:41:39 CST DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource 335 forceCloseAll - PooledDataSource forcefully closed/removed all connections.
+2018-12-31 at 15:41:39 CST DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource 335 forceCloseAll - PooledDataSource forcefully closed/removed all connections.
+2018-12-31 at 15:41:40 CST DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction 137 openConnection - Opening JDBC Connection
+2018-12-31 at 15:41:40 CST DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource 406 popConnection - Created connection 1774795940.
+2018-12-31 at 15:41:40 CST DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction 101 setDesiredAutoCommit - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@69c93ca4]
+2018-12-31 at 15:41:40 CST DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger 159 debug - ==>  Preparing: select id,last_name lastName,email,gender from tbl_employee where id = ? 
+2018-12-31 at 15:41:40 CST DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger 159 debug - ==> Parameters: 1(Integer)
+2018-12-31 at 15:41:40 CST TRACE org.apache.ibatis.logging.jdbc.BaseJdbcLogger 165 trace - <==    Columns: id, lastName, email, gender
+2018-12-31 at 15:41:40 CST TRACE org.apache.ibatis.logging.jdbc.BaseJdbcLogger 165 trace - <==        Row: 1, tom, tom@atgui.com, 0
+2018-12-31 at 15:41:40 CST DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger 159 debug - <==      Total: 1
+2018-12-31 at 15:41:40 CST DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction 123 resetAutoCommit - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@69c93ca4]
+2018-12-31 at 15:41:40 CST DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction 91 close - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@69c93ca4]
+2018-12-31 at 15:41:40 CST DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource 363 pushConnection - Returned connection 1774795940 to pool.
+2018-12-31 at 15:41:58 CST DEBUG org.apache.ibatis.logging.LogFactory 135 setImplementation - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2018-12-31 at 15:41:58 CST DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource 335 forceCloseAll - PooledDataSource forcefully closed/removed all connections.
+2018-12-31 at 15:41:58 CST DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource 335 forceCloseAll - PooledDataSource forcefully closed/removed all connections.
+2018-12-31 at 15:41:58 CST DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource 335 forceCloseAll - PooledDataSource forcefully closed/removed all connections.
+2018-12-31 at 15:41:58 CST DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource 335 forceCloseAll - PooledDataSource forcefully closed/removed all connections.
+2018-12-31 at 15:41:58 CST DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction 137 openConnection - Opening JDBC Connection
+2018-12-31 at 15:41:58 CST DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource 406 popConnection - Created connection 621486957.
+2018-12-31 at 15:41:58 CST DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction 101 setDesiredAutoCommit - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@250b236d]
+2018-12-31 at 15:41:58 CST DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger 159 debug - ==>  Preparing: select id,last_name lastName,email,gender from tbl_employee where id = ? 
+2018-12-31 at 15:41:58 CST DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger 159 debug - ==> Parameters: 1(Integer)
+2018-12-31 at 15:41:59 CST TRACE org.apache.ibatis.logging.jdbc.BaseJdbcLogger 165 trace - <==    Columns: id, lastName, email, gender
+2018-12-31 at 15:41:59 CST TRACE org.apache.ibatis.logging.jdbc.BaseJdbcLogger 165 trace - <==        Row: 1, tom, tom@atgui.com, 0
+2018-12-31 at 15:41:59 CST DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger 159 debug - <==      Total: 1
+2018-12-31 at 15:41:59 CST DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction 123 resetAutoCommit - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@250b236d]
+2018-12-31 at 15:41:59 CST DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction 91 close - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@250b236d]
+2018-12-31 at 15:41:59 CST DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource 363 pushConnection - Returned connection 621486957 to pool.
+2018-12-31 at 15:42:58 CST DEBUG org.apache.ibatis.logging.LogFactory 135 setImplementation - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2018-12-31 at 15:42:58 CST DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource 335 forceCloseAll - PooledDataSource forcefully closed/removed all connections.
+2018-12-31 at 15:42:58 CST DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource 335 forceCloseAll - PooledDataSource forcefully closed/removed all connections.
+2018-12-31 at 15:42:58 CST DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource 335 forceCloseAll - PooledDataSource forcefully closed/removed all connections.
+2018-12-31 at 15:42:58 CST DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource 335 forceCloseAll - PooledDataSource forcefully closed/removed all connections.
+2018-12-31 at 15:42:58 CST DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction 137 openConnection - Opening JDBC Connection
+2018-12-31 at 15:42:58 CST DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource 406 popConnection - Created connection 1087440001.
+2018-12-31 at 15:42:58 CST DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction 101 setDesiredAutoCommit - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@40d10481]
+2018-12-31 at 15:42:58 CST DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger 159 debug - ==>  Preparing: select id,last_name lastName,email,gender from tbl_employee where id = ? 
+2018-12-31 at 15:42:58 CST DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger 159 debug - ==> Parameters: 1(Integer)
+2018-12-31 at 15:42:58 CST TRACE org.apache.ibatis.logging.jdbc.BaseJdbcLogger 165 trace - <==    Columns: id, lastName, email, gender
+2018-12-31 at 15:42:58 CST TRACE org.apache.ibatis.logging.jdbc.BaseJdbcLogger 165 trace - <==        Row: 1, tom, tom@atgui.com, 0
+2018-12-31 at 15:42:58 CST DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger 159 debug - <==      Total: 1
+2018-12-31 at 15:42:58 CST DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction 123 resetAutoCommit - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@40d10481]
+2018-12-31 at 15:42:58 CST DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction 91 close - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@40d10481]
+2018-12-31 at 15:42:58 CST DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource 363 pushConnection - Returned connection 1087440001 to pool.
+2018-12-31 at 18:06:23 CST DEBUG org.apache.ibatis.logging.LogFactory 135 setImplementation - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2018-12-31 at 18:06:23 CST DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource 335 forceCloseAll - PooledDataSource forcefully closed/removed all connections.
+2018-12-31 at 18:06:23 CST DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource 335 forceCloseAll - PooledDataSource forcefully closed/removed all connections.
+2018-12-31 at 18:06:23 CST DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource 335 forceCloseAll - PooledDataSource forcefully closed/removed all connections.
+2018-12-31 at 18:06:23 CST DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource 335 forceCloseAll - PooledDataSource forcefully closed/removed all connections.
+2018-12-31 at 18:06:23 CST DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction 137 openConnection - Opening JDBC Connection
+2018-12-31 at 18:06:24 CST DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource 406 popConnection - Created connection 621486957.
+2018-12-31 at 18:06:24 CST DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction 101 setDesiredAutoCommit - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@250b236d]
+2018-12-31 at 18:06:24 CST DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger 159 debug - ==>  Preparing: select id,last_name lastName,email,gender from tbl_employee where id = ? 
+2018-12-31 at 18:06:24 CST DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger 159 debug - ==> Parameters: 1(Integer)
+2018-12-31 at 18:06:24 CST TRACE org.apache.ibatis.logging.jdbc.BaseJdbcLogger 165 trace - <==    Columns: id, lastName, email, gender
+2018-12-31 at 18:06:24 CST TRACE org.apache.ibatis.logging.jdbc.BaseJdbcLogger 165 trace - <==        Row: 1, tom, tom@atgui.com, 0
+2018-12-31 at 18:06:24 CST DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger 159 debug - <==      Total: 1
+2018-12-31 at 18:06:24 CST DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction 123 resetAutoCommit - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@250b236d]
+2018-12-31 at 18:06:24 CST DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction 91 close - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@250b236d]
+2018-12-31 at 18:06:24 CST DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource 363 pushConnection - Returned connection 621486957 to pool.
+2018-12-31 at 18:06:32 CST DEBUG org.apache.ibatis.logging.LogFactory 135 setImplementation - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2018-12-31 at 18:06:33 CST DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource 335 forceCloseAll - PooledDataSource forcefully closed/removed all connections.
+2018-12-31 at 18:06:33 CST DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource 335 forceCloseAll - PooledDataSource forcefully closed/removed all connections.
+2018-12-31 at 18:06:33 CST DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource 335 forceCloseAll - PooledDataSource forcefully closed/removed all connections.
+2018-12-31 at 18:06:33 CST DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource 335 forceCloseAll - PooledDataSource forcefully closed/removed all connections.
+2018-12-31 at 18:06:33 CST DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction 137 openConnection - Opening JDBC Connection
+2018-12-31 at 18:06:33 CST DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource 406 popConnection - Created connection 1087440001.
+2018-12-31 at 18:06:33 CST DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction 101 setDesiredAutoCommit - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@40d10481]
+2018-12-31 at 18:06:33 CST DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger 159 debug - ==>  Preparing: select id,last_name lastName,email,gender from tbl_employee where id = ? 
+2018-12-31 at 18:06:33 CST DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger 159 debug - ==> Parameters: 1(Integer)
+2018-12-31 at 18:06:33 CST TRACE org.apache.ibatis.logging.jdbc.BaseJdbcLogger 165 trace - <==    Columns: id, lastName, email, gender
+2018-12-31 at 18:06:33 CST TRACE org.apache.ibatis.logging.jdbc.BaseJdbcLogger 165 trace - <==        Row: 1, tom, tom@atgui.com, 0
+2018-12-31 at 18:06:33 CST DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger 159 debug - <==      Total: 1
+2018-12-31 at 18:06:33 CST DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction 123 resetAutoCommit - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@40d10481]
+2018-12-31 at 18:06:33 CST DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction 91 close - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@40d10481]
+2018-12-31 at 18:06:33 CST DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource 363 pushConnection - Returned connection 1087440001 to pool.
+2018-12-31 at 22:28:12 CST DEBUG org.apache.ibatis.logging.LogFactory 135 setImplementation - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2018-12-31 at 22:28:12 CST DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource 335 forceCloseAll - PooledDataSource forcefully closed/removed all connections.
+2018-12-31 at 22:28:12 CST DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource 335 forceCloseAll - PooledDataSource forcefully closed/removed all connections.
+2018-12-31 at 22:28:12 CST DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource 335 forceCloseAll - PooledDataSource forcefully closed/removed all connections.
+2018-12-31 at 22:28:12 CST DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource 335 forceCloseAll - PooledDataSource forcefully closed/removed all connections.
+2018-12-31 at 22:28:29 CST DEBUG org.apache.ibatis.logging.LogFactory 135 setImplementation - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2018-12-31 at 22:28:29 CST DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource 335 forceCloseAll - PooledDataSource forcefully closed/removed all connections.
+2018-12-31 at 22:28:29 CST DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource 335 forceCloseAll - PooledDataSource forcefully closed/removed all connections.
+2018-12-31 at 22:28:29 CST DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource 335 forceCloseAll - PooledDataSource forcefully closed/removed all connections.
+2018-12-31 at 22:28:29 CST DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource 335 forceCloseAll - PooledDataSource forcefully closed/removed all connections.
+2018-12-31 at 22:29:48 CST DEBUG org.apache.ibatis.logging.LogFactory 135 setImplementation - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2018-12-31 at 22:29:48 CST DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource 335 forceCloseAll - PooledDataSource forcefully closed/removed all connections.
+2018-12-31 at 22:29:48 CST DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource 335 forceCloseAll - PooledDataSource forcefully closed/removed all connections.
+2018-12-31 at 22:29:48 CST DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource 335 forceCloseAll - PooledDataSource forcefully closed/removed all connections.
+2018-12-31 at 22:29:48 CST DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource 335 forceCloseAll - PooledDataSource forcefully closed/removed all connections.
+2018-12-31 at 22:29:48 CST DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction 137 openConnection - Opening JDBC Connection
+2018-12-31 at 22:29:48 CST DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource 406 popConnection - Created connection 1904676263.
+2018-12-31 at 22:29:48 CST DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction 101 setDesiredAutoCommit - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@71870da7]
+2018-12-31 at 22:29:48 CST DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger 159 debug - ==>  Preparing: select id,last_name lastName,email,gender from tbl_employee where id = ? 
+2018-12-31 at 22:29:48 CST DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger 159 debug - ==> Parameters: 1(Integer)
+2018-12-31 at 22:29:48 CST TRACE org.apache.ibatis.logging.jdbc.BaseJdbcLogger 165 trace - <==    Columns: id, lastName, email, gender
+2018-12-31 at 22:29:48 CST TRACE org.apache.ibatis.logging.jdbc.BaseJdbcLogger 165 trace - <==        Row: 1, tom, tom@atgui.com, 0
+2018-12-31 at 22:29:48 CST DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger 159 debug - <==      Total: 1
+2018-12-31 at 22:29:49 CST DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction 123 resetAutoCommit - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@71870da7]
+2018-12-31 at 22:29:49 CST DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction 91 close - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@71870da7]
+2018-12-31 at 22:29:49 CST DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource 363 pushConnection - Returned connection 1904676263 to pool.
+2018-12-31 at 22:30:56 CST DEBUG org.apache.ibatis.logging.LogFactory 135 setImplementation - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2018-12-31 at 22:30:56 CST DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource 335 forceCloseAll - PooledDataSource forcefully closed/removed all connections.
+2018-12-31 at 22:30:56 CST DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource 335 forceCloseAll - PooledDataSource forcefully closed/removed all connections.
+2018-12-31 at 22:30:56 CST DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource 335 forceCloseAll - PooledDataSource forcefully closed/removed all connections.
+2018-12-31 at 22:30:56 CST DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource 335 forceCloseAll - PooledDataSource forcefully closed/removed all connections.
+2018-12-31 at 22:30:56 CST DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction 137 openConnection - Opening JDBC Connection
+2018-12-31 at 22:30:56 CST DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource 406 popConnection - Created connection 621486957.
+2018-12-31 at 22:30:56 CST DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction 101 setDesiredAutoCommit - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@250b236d]
+2018-12-31 at 22:30:56 CST DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger 159 debug - ==>  Preparing: select id,last_name lastName,email,gender from tbl_employee where id = ? 
+2018-12-31 at 22:30:56 CST DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger 159 debug - ==> Parameters: 1(Integer)
+2018-12-31 at 22:30:57 CST TRACE org.apache.ibatis.logging.jdbc.BaseJdbcLogger 165 trace - <==    Columns: id, lastName, email, gender
+2018-12-31 at 22:30:57 CST TRACE org.apache.ibatis.logging.jdbc.BaseJdbcLogger 165 trace - <==        Row: 1, tom, tom@atgui.com, 0
+2018-12-31 at 22:30:57 CST DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger 159 debug - <==      Total: 1
+2018-12-31 at 22:30:57 CST DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction 123 resetAutoCommit - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@250b236d]
+2018-12-31 at 22:30:57 CST DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction 91 close - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@250b236d]
+2018-12-31 at 22:30:57 CST DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource 363 pushConnection - Returned connection 621486957 to pool.
