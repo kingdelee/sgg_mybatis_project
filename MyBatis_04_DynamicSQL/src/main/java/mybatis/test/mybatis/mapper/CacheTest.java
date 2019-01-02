@@ -8,11 +8,10 @@ import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.apache.ibatis.session.SqlSessionFactoryBuilder;
-import org.junit.Before;
-import org.junit.Test;
 
 
 import mybatis.po.User;
+import org.junit.jupiter.api.Test;
 
 public class CacheTest {
 
@@ -20,7 +19,6 @@ public class CacheTest {
 	private SqlSessionFactory sqlSessionFactory;
 
 	// 创建工厂
-	@Before
 	public void init() throws IOException {
 
 		// 配置文件（SqlMapConfig.xml）
@@ -36,7 +34,7 @@ public class CacheTest {
 	//一级缓存
 	@Test
 	public void testCache1() throws Exception {
-
+		init();
 		SqlSession sqlSession = sqlSessionFactory.openSession();
 		UserMapper userMapper = sqlSession.getMapper(UserMapper.class);
 		

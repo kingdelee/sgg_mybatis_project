@@ -229,8 +229,9 @@ public class MyBatisTest {
 
 			// 执行嵌套查询，需要关闭懒加载，否则会报空指针异常，因为无法获取返回值进行再次查询
 			Employee employee = mapper.getEmpByIdStep(1);
+			openSession.commit();
 			System.out.println(employee.getLastName());
-//			System.out.println(employee.getDept());
+			System.out.println(employee.getDept());
 			TimeUnit.MINUTES.sleep(1);
 		} catch (InterruptedException e) {
 			e.printStackTrace();
