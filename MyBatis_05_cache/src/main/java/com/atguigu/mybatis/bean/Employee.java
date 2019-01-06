@@ -1,12 +1,16 @@
 package com.atguigu.mybatis.bean;
 
-import org.apache.ibatis.type.Alias;
-
 import java.io.Serializable;
 
+import org.apache.ibatis.type.Alias;
+
 @Alias("emp")
-public class Employee implements Serializable {
+public class Employee implements Serializable{
 	
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private Integer id;
 	private String lastName;
 	private String email;
@@ -17,6 +21,20 @@ public class Employee implements Serializable {
 		super();
 	}
 	
+	
+	
+	public Employee(Integer id, String lastName, String email, String gender,
+			Department dept) {
+		super();
+		this.id = id;
+		this.lastName = lastName;
+		this.email = email;
+		this.gender = gender;
+		this.dept = dept;
+	}
+
+
+
 	public Employee(Integer id, String lastName, String email, String gender) {
 		super();
 		this.id = id;
@@ -24,6 +42,9 @@ public class Employee implements Serializable {
 		this.email = email;
 		this.gender = gender;
 	}
+	
+	
+	
 
 	public Department getDept() {
 		return dept;

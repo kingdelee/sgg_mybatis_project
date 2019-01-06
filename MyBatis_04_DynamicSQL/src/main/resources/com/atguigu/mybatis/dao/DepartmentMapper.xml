@@ -3,11 +3,12 @@
  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.atguigu.mybatis.dao.DepartmentMapper">
-
 	<!--public Department getDeptById(Integer id);  -->
 	<select id="getDeptById" resultType="com.atguigu.mybatis.bean.Department">
-		select id, dept_name AS departmentName from tbl_dept where id=#{id}
+		select id,dept_name departmentName from tbl_dept where id=#{id}
 	</select>
+	
+	
 	
 	<!-- 
 	public class Department {
@@ -33,7 +34,6 @@
 			<result column="gender" property="gender"/>
 		</collection>
 	</resultMap>
-
 	<!-- public Department getDeptByIdPlus(Integer id); -->
 	<select id="getDeptByIdPlus" resultMap="MyDept">
 		SELECT d.id did,d.dept_name dept_name,
@@ -50,13 +50,13 @@
 		<id column="dept_name" property="departmentName"/>
 		<collection property="emps" 
 			select="com.atguigu.mybatis.dao.EmployeeMapperPlus.getEmpsByDeptId"
-			column="{deptId=id}" fetchType="eager"></collection>
+			column="{deptId=id}" fetchType="lazy"></collection>
 	</resultMap>
 	<!-- public Department getDeptByIdStep(Integer id); -->
 	<select id="getDeptByIdStep" resultMap="MyDeptStep">
 		select id,dept_name from tbl_dept where id=#{id}
 	</select>
-
+	
 	<!-- 扩展：多列的值传递过去：
 			将多列的值封装map传递；
 			column="{key1=column1,key2=column2}"

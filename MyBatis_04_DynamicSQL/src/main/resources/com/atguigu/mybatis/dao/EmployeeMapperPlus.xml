@@ -51,7 +51,6 @@
 
 	<!-- 
 		使用association定义关联的单个对象的封装规则；
-		MyDifEmp2与MyDifEmp方式一样
 	 -->
 	<resultMap type="com.atguigu.mybatis.bean.Employee" id="MyDifEmp2">
 		<id column="id" property="id"/>
@@ -67,7 +66,6 @@
 			<result column="dept_name" property="departmentName"/>
 		</association>
 	</resultMap>
-
 	<!--  public Employee getEmpAndDept(Integer id);-->
 	<select id="getEmpAndDept" resultMap="MyDifEmp">
 		SELECT e.id id,e.last_name last_name,e.gender gender,e.d_id d_id,
@@ -93,33 +91,18 @@
 	 		
 	 		流程：使用select指定的方法（传入column指定的这列参数的值）查出对象，并封装给property指定的属性
 	 	 -->
- 		<association property="dept"
+ 		<association property="dept" 
 	 		select="com.atguigu.mybatis.dao.DepartmentMapper.getDeptById"
-	 		column="d_id"
-			fetchType="lazy">
- 		</association >
+	 		column="d_id">
+ 		</association>
 	 </resultMap>
-
-
-	<!-- 需要关闭懒加载，会发出两条sql-->
 	 <!--  public Employee getEmpByIdStep(Integer id);-->
-	 <select id="getEmpByIdStep" resultMap="MyEmpByStep" >
+	 <select id="getEmpByIdStep" resultMap="MyEmpByStep">
 	 	select * from tbl_employee where id=#{id}
-
-	 	<!--<if test="_parameter!=null">-->
-	 		<!--and 1=1-->
-	 	<!--</if>-->
-
+	 	<if test="_parameter!=null">
+	 		and 1=1
+	 	</if>
 	 </select>
-
-	<select id="getEmpByIdStep2" resultMap="MyEmpDis" >
-		select * from tbl_employee where id=#{id}
-
-		<!--<if test="_parameter!=null">-->
-		<!--and 1=1-->
-		<!--</if>-->
-
-	</select>
 	 
 	 <!-- 可以使用延迟加载（懒加载）；(按需加载)
 	 	Employee==>Dept：

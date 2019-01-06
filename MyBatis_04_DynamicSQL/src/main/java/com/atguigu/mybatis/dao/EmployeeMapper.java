@@ -17,19 +17,15 @@ public interface EmployeeMapper {
 	
 	//返回一条记录的map；key就是列名，值就是对应的值
 	public Map<String, Object> getEmpByIdReturnMap(Integer id);
-
-	// 在接口中定义返回list，则会将sql的返回值封装成对象后，再包装成list返回
+	
 	public List<Employee> getEmpsByLastNameLike(String lastName);
-
-	// 通过key-value即map形式, 在key中指定对应#{id}去取
+	
 	public Employee getEmpByMap(Map<String, Object> map);
-
-	// 显示的通过param制定参数，告诉xml通过#{id}去取
+	
 	public Employee getEmpByIdAndLastName(@Param("id") Integer id, @Param("lastName") String lastName);
 	
 	public Employee getEmpById(Integer id);
 
-	// 通过传对象pojo的形式，那么对象的属性一定要在xml中的sql#{id}有对应
 	public Long addEmp(Employee employee);
 
 	public boolean updateEmp(Employee employee);

@@ -207,7 +207,7 @@ public class MyBatisTest {
 
 			// 执行嵌套查询，需要关闭懒加载，否则会报空指针异常，因为无法获取返回值进行再次查询
 			Employee employee = mapper.getEmpByIdStep(1);
-			System.out.println(employee.getLastName());
+//			System.out.println(employee.getLastName());
 			System.out.println(employee.getDept().getDepartmentName());
 		}finally{
 			openSession.close();
@@ -248,15 +248,37 @@ public class MyBatisTest {
 		
 		try{
 			DepartmentMapper mapper = openSession.getMapper(DepartmentMapper.class);
-			/*Department department = mapper.getDeptByIdPlus(1);
-			System.out.println(department);
-			System.out.println(department.getEmps());*/
+//			Department department = mapper.getDeptByIdPlus(1);
+//			System.out.println(department);
+//			System.out.println(department.getEmps());
+
+
 			Department deptByIdStep = mapper.getDeptByIdStep(1);
 			System.out.println(deptByIdStep.getDepartmentName());
 			System.out.println(deptByIdStep.getEmps());
 		}finally{
 			openSession.close();
 		}
-	}	
-	
+	}
+
+	@Test
+	public void test07() throws IOException{
+		SqlSessionFactory sqlSessionFactory = getSqlSessionFactory();
+		SqlSession openSession = sqlSessionFactory.openSession();
+
+		try{
+			EmployeeMapperPlus mapper = openSession.getMapper(EmployeeMapperPlus.class);
+//			Department department = mapper.getDeptByIdPlus(1);
+//			System.out.println(department);
+//			System.out.println(department.getEmps());
+
+
+			Employee employee = mapper.getEmpByIdStep2(2);
+			System.out.println(employee.toString());
+			System.out.println(employee.getDept());
+		}finally{
+			openSession.close();
+		}
+	}
+
 }

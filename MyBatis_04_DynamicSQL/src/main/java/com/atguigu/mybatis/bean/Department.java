@@ -1,14 +1,25 @@
 package com.atguigu.mybatis.bean;
 
-import java.io.Serializable;
 import java.util.List;
 
-public class Department implements Serializable {
+public class Department {
 	
 	private Integer id;
 	private String departmentName;
 	private List<Employee> emps;
 	
+	
+	
+	
+	
+	public Department(Integer id) {
+		super();
+		this.id = id;
+	}
+	public Department() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
 	public List<Employee> getEmps() {
 		return emps;
 	}
