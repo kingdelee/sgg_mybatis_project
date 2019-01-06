@@ -6,10 +6,8 @@
 
 	<!--public Department getDeptById(Integer id);  -->
 	<select id="getDeptById" resultType="com.atguigu.mybatis.bean.Department">
-		select id,dept_name departmentName from tbl_dept where id=#{id}
+		select id, dept_name AS departmentName from tbl_dept where id=#{id}
 	</select>
-	
-	
 	
 	<!-- 
 	public class Department {
@@ -35,6 +33,7 @@
 			<result column="gender" property="gender"/>
 		</collection>
 	</resultMap>
+
 	<!-- public Department getDeptByIdPlus(Integer id); -->
 	<select id="getDeptByIdPlus" resultMap="MyDept">
 		SELECT d.id did,d.dept_name dept_name,

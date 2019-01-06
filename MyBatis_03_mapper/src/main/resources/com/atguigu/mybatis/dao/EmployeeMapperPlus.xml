@@ -96,9 +96,10 @@
  		<association property="dept"
 	 		select="com.atguigu.mybatis.dao.DepartmentMapper.getDeptById"
 	 		column="d_id"
-		 	>
- 		</association>
+			fetchType="eager">
+ 		</association >
 	 </resultMap>
+
 
 	<!-- 需要关闭懒加载，会发出两条sql-->
 	 <!--  public Employee getEmpByIdStep(Integer id);-->

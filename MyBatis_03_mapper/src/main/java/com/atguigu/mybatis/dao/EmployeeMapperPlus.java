@@ -2,6 +2,7 @@ package com.atguigu.mybatis.dao;
 
 import java.util.List;
 
+import com.atguigu.mybatis.bean.Department;
 import com.atguigu.mybatis.bean.Employee;
 
 public interface EmployeeMapperPlus {
@@ -13,5 +14,7 @@ public interface EmployeeMapperPlus {
 	public Employee  getEmpByIdStep(Integer id);
 	
 	public List<Employee> getEmpsByDeptId(Integer deptId);
+
+	public Department getDep2tById(Integer id);
 
 }
