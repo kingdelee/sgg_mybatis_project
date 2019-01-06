@@ -6795,3 +6795,373 @@
 2019-01-07 at 01:47:56 CST DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction 123 resetAutoCommit - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@53093491]
 2019-01-07 at 01:47:56 CST DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction 91 close - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@53093491]
 2019-01-07 at 01:47:56 CST DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource 363 pushConnection - Returned connection 1393112209 to pool.
+2019-01-07 at 03:09:16 CST DEBUG org.apache.ibatis.logging.LogFactory 135 setImplementation - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2019-01-07 at 03:09:16 CST DEBUG org.apache.ibatis.io.VFS 111 getClass - Class not found: org.jboss.vfs.VFS
+2019-01-07 at 03:09:16 CST DEBUG org.apache.ibatis.io.JBoss6VFS 142 setInvalid - JBoss 6 VFS API is not available in this environment.
+2019-01-07 at 03:09:16 CST DEBUG org.apache.ibatis.io.VFS 111 getClass - Class not found: org.jboss.vfs.VirtualFile
+2019-01-07 at 03:09:16 CST DEBUG org.apache.ibatis.io.VFS$VFSHolder 63 createVFS - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2019-01-07 at 03:09:16 CST DEBUG org.apache.ibatis.io.VFS$VFSHolder 77 createVFS - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2019-01-07 at 03:09:16 CST DEBUG org.apache.ibatis.io.DefaultVFS 222 findJarForResource - Find JAR URL: file:/Users/kingdelee/IdeaProjects/eweb/sgg_mybatis_project/MyBatis_03_mapper/target/classes/com/atguigu/mybatis/bean
+2019-01-07 at 03:09:16 CST DEBUG org.apache.ibatis.io.DefaultVFS 248 findJarForResource - Not a JAR: file:/Users/kingdelee/IdeaProjects/eweb/sgg_mybatis_project/MyBatis_03_mapper/target/classes/com/atguigu/mybatis/bean
+2019-01-07 at 03:09:16 CST DEBUG org.apache.ibatis.io.DefaultVFS 102 list - Reader entry: Department.class
+2019-01-07 at 03:09:16 CST DEBUG org.apache.ibatis.io.DefaultVFS 102 list - Reader entry: Employee.class
+2019-01-07 at 03:09:16 CST DEBUG org.apache.ibatis.io.DefaultVFS 113 list - Listing file:/Users/kingdelee/IdeaProjects/eweb/sgg_mybatis_project/MyBatis_03_mapper/target/classes/com/atguigu/mybatis/bean
+2019-01-07 at 03:09:16 CST DEBUG org.apache.ibatis.io.DefaultVFS 222 findJarForResource - Find JAR URL: file:/Users/kingdelee/IdeaProjects/eweb/sgg_mybatis_project/MyBatis_03_mapper/target/classes/com/atguigu/mybatis/bean/Department.class
+2019-01-07 at 03:09:16 CST DEBUG org.apache.ibatis.io.DefaultVFS 248 findJarForResource - Not a JAR: file:/Users/kingdelee/IdeaProjects/eweb/sgg_mybatis_project/MyBatis_03_mapper/target/classes/com/atguigu/mybatis/bean/Department.class
+2019-01-07 at 03:09:16 CST DEBUG org.apache.ibatis.io.DefaultVFS 102 list - Reader entry: ����   7 C
+2019-01-07 at 03:09:16 CST DEBUG org.apache.ibatis.io.DefaultVFS 222 findJarForResource - Find JAR URL: file:/Users/kingdelee/IdeaProjects/eweb/sgg_mybatis_project/MyBatis_03_mapper/target/classes/com/atguigu/mybatis/bean/Employee.class
+2019-01-07 at 03:09:16 CST DEBUG org.apache.ibatis.io.DefaultVFS 248 findJarForResource - Not a JAR: file:/Users/kingdelee/IdeaProjects/eweb/sgg_mybatis_project/MyBatis_03_mapper/target/classes/com/atguigu/mybatis/bean/Employee.class
+2019-01-07 at 03:09:16 CST DEBUG org.apache.ibatis.io.DefaultVFS 102 list - Reader entry: ����   7 M
+2019-01-07 at 03:09:16 CST DEBUG org.apache.ibatis.io.ResolverUtil 256 addIfMatching - Checking to see if class com.atguigu.mybatis.bean.Department matches criteria [is assignable to Object]
+2019-01-07 at 03:09:16 CST DEBUG org.apache.ibatis.io.ResolverUtil 256 addIfMatching - Checking to see if class com.atguigu.mybatis.bean.Employee matches criteria [is assignable to Object]
+2019-01-07 at 03:09:16 CST DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource 335 forceCloseAll - PooledDataSource forcefully closed/removed all connections.
+2019-01-07 at 03:09:16 CST DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource 335 forceCloseAll - PooledDataSource forcefully closed/removed all connections.
+2019-01-07 at 03:09:16 CST DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource 335 forceCloseAll - PooledDataSource forcefully closed/removed all connections.
+2019-01-07 at 03:09:16 CST DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource 335 forceCloseAll - PooledDataSource forcefully closed/removed all connections.
+2019-01-07 at 03:09:16 CST DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource 406 popConnection - Created connection 1991386317.
+2019-01-07 at 03:09:16 CST DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource 363 pushConnection - Returned connection 1991386317 to pool.
+2019-01-07 at 03:09:16 CST DEBUG org.apache.ibatis.io.DefaultVFS 222 findJarForResource - Find JAR URL: file:/Users/kingdelee/IdeaProjects/eweb/sgg_mybatis_project/MyBatis_03_mapper/target/classes/com/atguigu/mybatis/dao
+2019-01-07 at 03:09:16 CST DEBUG org.apache.ibatis.io.DefaultVFS 248 findJarForResource - Not a JAR: file:/Users/kingdelee/IdeaProjects/eweb/sgg_mybatis_project/MyBatis_03_mapper/target/classes/com/atguigu/mybatis/dao
+2019-01-07 at 03:09:16 CST DEBUG org.apache.ibatis.io.DefaultVFS 102 list - Reader entry: DepartmentMapper.class
+2019-01-07 at 03:09:16 CST DEBUG org.apache.ibatis.io.DefaultVFS 102 list - Reader entry: DepartmentMapper.xml
+2019-01-07 at 03:09:16 CST DEBUG org.apache.ibatis.io.DefaultVFS 102 list - Reader entry: EmployeeMapper.class
+2019-01-07 at 03:09:16 CST DEBUG org.apache.ibatis.io.DefaultVFS 102 list - Reader entry: EmployeeMapper.xml
+2019-01-07 at 03:09:16 CST DEBUG org.apache.ibatis.io.DefaultVFS 102 list - Reader entry: EmployeeMapperAnnotation.class
+2019-01-07 at 03:09:16 CST DEBUG org.apache.ibatis.io.DefaultVFS 102 list - Reader entry: EmployeeMapperPlus.class
+2019-01-07 at 03:09:16 CST DEBUG org.apache.ibatis.io.DefaultVFS 102 list - Reader entry: EmployeeMapperPlus.xml
+2019-01-07 at 03:09:16 CST DEBUG org.apache.ibatis.io.DefaultVFS 113 list - Listing file:/Users/kingdelee/IdeaProjects/eweb/sgg_mybatis_project/MyBatis_03_mapper/target/classes/com/atguigu/mybatis/dao
+2019-01-07 at 03:09:16 CST DEBUG org.apache.ibatis.io.DefaultVFS 222 findJarForResource - Find JAR URL: file:/Users/kingdelee/IdeaProjects/eweb/sgg_mybatis_project/MyBatis_03_mapper/target/classes/com/atguigu/mybatis/dao/DepartmentMapper.class
+2019-01-07 at 03:09:16 CST DEBUG org.apache.ibatis.io.DefaultVFS 248 findJarForResource - Not a JAR: file:/Users/kingdelee/IdeaProjects/eweb/sgg_mybatis_project/MyBatis_03_mapper/target/classes/com/atguigu/mybatis/dao/DepartmentMapper.class
+2019-01-07 at 03:09:16 CST DEBUG org.apache.ibatis.io.DefaultVFS 102 list - Reader entry: ����   7  	 
+2019-01-07 at 03:09:16 CST DEBUG org.apache.ibatis.io.DefaultVFS 222 findJarForResource - Find JAR URL: file:/Users/kingdelee/IdeaProjects/eweb/sgg_mybatis_project/MyBatis_03_mapper/target/classes/com/atguigu/mybatis/dao/DepartmentMapper.xml
+2019-01-07 at 03:09:16 CST DEBUG org.apache.ibatis.io.DefaultVFS 248 findJarForResource - Not a JAR: file:/Users/kingdelee/IdeaProjects/eweb/sgg_mybatis_project/MyBatis_03_mapper/target/classes/com/atguigu/mybatis/dao/DepartmentMapper.xml
+2019-01-07 at 03:09:16 CST DEBUG org.apache.ibatis.io.DefaultVFS 102 list - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+2019-01-07 at 03:09:16 CST DEBUG org.apache.ibatis.io.DefaultVFS 222 findJarForResource - Find JAR URL: file:/Users/kingdelee/IdeaProjects/eweb/sgg_mybatis_project/MyBatis_03_mapper/target/classes/com/atguigu/mybatis/dao/EmployeeMapper.class
+2019-01-07 at 03:09:16 CST DEBUG org.apache.ibatis.io.DefaultVFS 248 findJarForResource - Not a JAR: file:/Users/kingdelee/IdeaProjects/eweb/sgg_mybatis_project/MyBatis_03_mapper/target/classes/com/atguigu/mybatis/dao/EmployeeMapper.class
+2019-01-07 at 03:09:16 CST DEBUG org.apache.ibatis.io.DefaultVFS 102 list - Reader entry: ����   7 % # $ getEmpByLastNameLikeReturnMap #(Ljava/lang/String;)Ljava/util/Map; 	Signature Z(Ljava/lang/String;)Ljava/util/Map<Ljava/lang/String;Lcom/atguigu/mybatis/bean/Employee;>; RuntimeVisibleAnnotations &Lorg/apache/ibatis/annotations/MapKey; value lastName getEmpByIdReturnMap $(Ljava/lang/Integer;)Ljava/util/Map; J(Ljava/lang/Integer;)Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>; getEmpsByLastNameLike $(Ljava/lang/String;)Ljava/util/List; I(Ljava/lang/String;)Ljava/util/List<Lcom/atguigu/mybatis/bean/Employee;>; getEmpByMap 4(Ljava/util/Map;)Lcom/atguigu/mybatis/bean/Employee; Z(Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)Lcom/atguigu/mybatis/bean/Employee; getEmpByIdAndLastName J(Ljava/lang/Integer;Ljava/lang/String;)Lcom/atguigu/mybatis/bean/Employee; "RuntimeVisibleParameterAnnotations %Lorg/apache/ibatis/annotations/Param; id 
+2019-01-07 at 03:09:16 CST DEBUG org.apache.ibatis.io.DefaultVFS 222 findJarForResource - Find JAR URL: file:/Users/kingdelee/IdeaProjects/eweb/sgg_mybatis_project/MyBatis_03_mapper/target/classes/com/atguigu/mybatis/dao/EmployeeMapper.xml
+2019-01-07 at 03:09:16 CST DEBUG org.apache.ibatis.io.DefaultVFS 248 findJarForResource - Not a JAR: file:/Users/kingdelee/IdeaProjects/eweb/sgg_mybatis_project/MyBatis_03_mapper/target/classes/com/atguigu/mybatis/dao/EmployeeMapper.xml
+2019-01-07 at 03:09:16 CST DEBUG org.apache.ibatis.io.DefaultVFS 102 list - Reader entry: <?xml version="1.0" encoding="UTF-8" ?>
+2019-01-07 at 03:09:16 CST DEBUG org.apache.ibatis.io.DefaultVFS 222 findJarForResource - Find JAR URL: file:/Users/kingdelee/IdeaProjects/eweb/sgg_mybatis_project/MyBatis_03_mapper/target/classes/com/atguigu/mybatis/dao/EmployeeMapperAnnotation.class
+2019-01-07 at 03:09:16 CST DEBUG org.apache.ibatis.io.DefaultVFS 248 findJarForResource - Not a JAR: file:/Users/kingdelee/IdeaProjects/eweb/sgg_mybatis_project/MyBatis_03_mapper/target/classes/com/atguigu/mybatis/dao/EmployeeMapperAnnotation.class
+2019-01-07 at 03:09:16 CST DEBUG org.apache.ibatis.io.DefaultVFS 102 list - Reader entry: ����   7 
+2019-01-07 at 03:09:16 CST DEBUG org.apache.ibatis.io.DefaultVFS 222 findJarForResource - Find JAR URL: file:/Users/kingdelee/IdeaProjects/eweb/sgg_mybatis_project/MyBatis_03_mapper/target/classes/com/atguigu/mybatis/dao/EmployeeMapperPlus.class
+2019-01-07 at 03:09:16 CST DEBUG org.apache.ibatis.io.DefaultVFS 248 findJarForResource - Not a JAR: file:/Users/kingdelee/IdeaProjects/eweb/sgg_mybatis_project/MyBatis_03_mapper/target/classes/com/atguigu/mybatis/dao/EmployeeMapperPlus.class
+2019-01-07 at 03:09:16 CST DEBUG org.apache.ibatis.io.DefaultVFS 102 list - Reader entry: ����   7    
+2019-01-07 at 03:09:16 CST DEBUG org.apache.ibatis.io.DefaultVFS 222 findJarForResource - Find JAR URL: file:/Users/kingdelee/IdeaProjects/eweb/sgg_mybatis_project/MyBatis_03_mapper/target/classes/com/atguigu/mybatis/dao/EmployeeMapperPlus.xml
+2019-01-07 at 03:09:16 CST DEBUG org.apache.ibatis.io.DefaultVFS 248 findJarForResource - Not a JAR: file:/Users/kingdelee/IdeaProjects/eweb/sgg_mybatis_project/MyBatis_03_mapper/target/classes/com/atguigu/mybatis/dao/EmployeeMapperPlus.xml
+2019-01-07 at 03:09:16 CST DEBUG org.apache.ibatis.io.DefaultVFS 102 list - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+2019-01-07 at 03:09:16 CST DEBUG org.apache.ibatis.io.ResolverUtil 256 addIfMatching - Checking to see if class com.atguigu.mybatis.dao.DepartmentMapper matches criteria [is assignable to Object]
+2019-01-07 at 03:09:16 CST DEBUG org.apache.ibatis.io.ResolverUtil 256 addIfMatching - Checking to see if class com.atguigu.mybatis.dao.EmployeeMapper matches criteria [is assignable to Object]
+2019-01-07 at 03:09:16 CST DEBUG org.apache.ibatis.io.ResolverUtil 256 addIfMatching - Checking to see if class com.atguigu.mybatis.dao.EmployeeMapperAnnotation matches criteria [is assignable to Object]
+2019-01-07 at 03:09:16 CST DEBUG org.apache.ibatis.io.ResolverUtil 256 addIfMatching - Checking to see if class com.atguigu.mybatis.dao.EmployeeMapperPlus matches criteria [is assignable to Object]
+2019-01-07 at 03:09:17 CST DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction 137 openConnection - Opening JDBC Connection
+2019-01-07 at 03:09:17 CST DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource 398 popConnection - Checked out connection 1991386317 from pool.
+2019-01-07 at 03:09:17 CST DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction 101 setDesiredAutoCommit - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@76b224cd]
+2019-01-07 at 03:09:17 CST DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger 159 debug - ==>  Preparing: select * from tbl_employee where id=? 
+2019-01-07 at 03:09:17 CST DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger 159 debug - ==> Parameters: 2(Integer)
+2019-01-07 at 03:09:17 CST TRACE org.apache.ibatis.logging.jdbc.BaseJdbcLogger 165 trace - <==    Columns: id, last_name, gender, email, d_id
+2019-01-07 at 03:09:17 CST TRACE org.apache.ibatis.logging.jdbc.BaseJdbcLogger 165 trace - <==        Row: 2, jerry2, 0, jerry@atguigu.com, 2
+2019-01-07 at 03:09:17 CST DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger 159 debug - ====>  Preparing: select id, dept_name AS departmentName from tbl_dept where id=? 
+2019-01-07 at 03:09:17 CST DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger 159 debug - ====> Parameters: 2(Integer)
+2019-01-07 at 03:09:17 CST TRACE org.apache.ibatis.logging.jdbc.BaseJdbcLogger 165 trace - <====    Columns: id, departmentName
+2019-01-07 at 03:09:17 CST TRACE org.apache.ibatis.logging.jdbc.BaseJdbcLogger 165 trace - <====        Row: 2, 测试部
+2019-01-07 at 03:09:17 CST DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger 159 debug - <====      Total: 1
+2019-01-07 at 03:09:17 CST DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger 159 debug - <==      Total: 1
+2019-01-07 at 03:09:17 CST DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction 123 resetAutoCommit - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@76b224cd]
+2019-01-07 at 03:09:17 CST DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction 91 close - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@76b224cd]
+2019-01-07 at 03:09:17 CST DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource 363 pushConnection - Returned connection 1991386317 to pool.
+2019-01-07 at 03:10:15 CST DEBUG org.apache.ibatis.logging.LogFactory 135 setImplementation - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2019-01-07 at 03:10:16 CST DEBUG org.apache.ibatis.io.VFS 111 getClass - Class not found: org.jboss.vfs.VFS
+2019-01-07 at 03:10:16 CST DEBUG org.apache.ibatis.io.JBoss6VFS 142 setInvalid - JBoss 6 VFS API is not available in this environment.
+2019-01-07 at 03:10:16 CST DEBUG org.apache.ibatis.io.VFS 111 getClass - Class not found: org.jboss.vfs.VirtualFile
+2019-01-07 at 03:10:16 CST DEBUG org.apache.ibatis.io.VFS$VFSHolder 63 createVFS - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2019-01-07 at 03:10:16 CST DEBUG org.apache.ibatis.io.VFS$VFSHolder 77 createVFS - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2019-01-07 at 03:10:16 CST DEBUG org.apache.ibatis.io.DefaultVFS 222 findJarForResource - Find JAR URL: file:/Users/kingdelee/IdeaProjects/eweb/sgg_mybatis_project/MyBatis_03_mapper/target/classes/com/atguigu/mybatis/bean
+2019-01-07 at 03:10:16 CST DEBUG org.apache.ibatis.io.DefaultVFS 248 findJarForResource - Not a JAR: file:/Users/kingdelee/IdeaProjects/eweb/sgg_mybatis_project/MyBatis_03_mapper/target/classes/com/atguigu/mybatis/bean
+2019-01-07 at 03:10:16 CST DEBUG org.apache.ibatis.io.DefaultVFS 102 list - Reader entry: Department.class
+2019-01-07 at 03:10:16 CST DEBUG org.apache.ibatis.io.DefaultVFS 102 list - Reader entry: Employee.class
+2019-01-07 at 03:10:16 CST DEBUG org.apache.ibatis.io.DefaultVFS 113 list - Listing file:/Users/kingdelee/IdeaProjects/eweb/sgg_mybatis_project/MyBatis_03_mapper/target/classes/com/atguigu/mybatis/bean
+2019-01-07 at 03:10:16 CST DEBUG org.apache.ibatis.io.DefaultVFS 222 findJarForResource - Find JAR URL: file:/Users/kingdelee/IdeaProjects/eweb/sgg_mybatis_project/MyBatis_03_mapper/target/classes/com/atguigu/mybatis/bean/Department.class
+2019-01-07 at 03:10:16 CST DEBUG org.apache.ibatis.io.DefaultVFS 248 findJarForResource - Not a JAR: file:/Users/kingdelee/IdeaProjects/eweb/sgg_mybatis_project/MyBatis_03_mapper/target/classes/com/atguigu/mybatis/bean/Department.class
+2019-01-07 at 03:10:16 CST DEBUG org.apache.ibatis.io.DefaultVFS 102 list - Reader entry: ����   7 C
+2019-01-07 at 03:10:16 CST DEBUG org.apache.ibatis.io.DefaultVFS 222 findJarForResource - Find JAR URL: file:/Users/kingdelee/IdeaProjects/eweb/sgg_mybatis_project/MyBatis_03_mapper/target/classes/com/atguigu/mybatis/bean/Employee.class
+2019-01-07 at 03:10:16 CST DEBUG org.apache.ibatis.io.DefaultVFS 248 findJarForResource - Not a JAR: file:/Users/kingdelee/IdeaProjects/eweb/sgg_mybatis_project/MyBatis_03_mapper/target/classes/com/atguigu/mybatis/bean/Employee.class
+2019-01-07 at 03:10:16 CST DEBUG org.apache.ibatis.io.DefaultVFS 102 list - Reader entry: ����   7 M
+2019-01-07 at 03:10:16 CST DEBUG org.apache.ibatis.io.ResolverUtil 256 addIfMatching - Checking to see if class com.atguigu.mybatis.bean.Department matches criteria [is assignable to Object]
+2019-01-07 at 03:10:16 CST DEBUG org.apache.ibatis.io.ResolverUtil 256 addIfMatching - Checking to see if class com.atguigu.mybatis.bean.Employee matches criteria [is assignable to Object]
+2019-01-07 at 03:10:16 CST DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource 335 forceCloseAll - PooledDataSource forcefully closed/removed all connections.
+2019-01-07 at 03:10:16 CST DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource 335 forceCloseAll - PooledDataSource forcefully closed/removed all connections.
+2019-01-07 at 03:10:16 CST DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource 335 forceCloseAll - PooledDataSource forcefully closed/removed all connections.
+2019-01-07 at 03:10:16 CST DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource 335 forceCloseAll - PooledDataSource forcefully closed/removed all connections.
+2019-01-07 at 03:10:16 CST DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource 406 popConnection - Created connection 2032399795.
+2019-01-07 at 03:10:16 CST DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource 363 pushConnection - Returned connection 2032399795 to pool.
+2019-01-07 at 03:10:16 CST DEBUG org.apache.ibatis.io.DefaultVFS 222 findJarForResource - Find JAR URL: file:/Users/kingdelee/IdeaProjects/eweb/sgg_mybatis_project/MyBatis_03_mapper/target/classes/com/atguigu/mybatis/dao
+2019-01-07 at 03:10:16 CST DEBUG org.apache.ibatis.io.DefaultVFS 248 findJarForResource - Not a JAR: file:/Users/kingdelee/IdeaProjects/eweb/sgg_mybatis_project/MyBatis_03_mapper/target/classes/com/atguigu/mybatis/dao
+2019-01-07 at 03:10:16 CST DEBUG org.apache.ibatis.io.DefaultVFS 102 list - Reader entry: DepartmentMapper.class
+2019-01-07 at 03:10:16 CST DEBUG org.apache.ibatis.io.DefaultVFS 102 list - Reader entry: DepartmentMapper.xml
+2019-01-07 at 03:10:16 CST DEBUG org.apache.ibatis.io.DefaultVFS 102 list - Reader entry: EmployeeMapper.class
+2019-01-07 at 03:10:16 CST DEBUG org.apache.ibatis.io.DefaultVFS 102 list - Reader entry: EmployeeMapper.xml
+2019-01-07 at 03:10:16 CST DEBUG org.apache.ibatis.io.DefaultVFS 102 list - Reader entry: EmployeeMapperAnnotation.class
+2019-01-07 at 03:10:16 CST DEBUG org.apache.ibatis.io.DefaultVFS 102 list - Reader entry: EmployeeMapperPlus.class
+2019-01-07 at 03:10:16 CST DEBUG org.apache.ibatis.io.DefaultVFS 102 list - Reader entry: EmployeeMapperPlus.xml
+2019-01-07 at 03:10:16 CST DEBUG org.apache.ibatis.io.DefaultVFS 113 list - Listing file:/Users/kingdelee/IdeaProjects/eweb/sgg_mybatis_project/MyBatis_03_mapper/target/classes/com/atguigu/mybatis/dao
+2019-01-07 at 03:10:16 CST DEBUG org.apache.ibatis.io.DefaultVFS 222 findJarForResource - Find JAR URL: file:/Users/kingdelee/IdeaProjects/eweb/sgg_mybatis_project/MyBatis_03_mapper/target/classes/com/atguigu/mybatis/dao/DepartmentMapper.class
+2019-01-07 at 03:10:16 CST DEBUG org.apache.ibatis.io.DefaultVFS 248 findJarForResource - Not a JAR: file:/Users/kingdelee/IdeaProjects/eweb/sgg_mybatis_project/MyBatis_03_mapper/target/classes/com/atguigu/mybatis/dao/DepartmentMapper.class
+2019-01-07 at 03:10:16 CST DEBUG org.apache.ibatis.io.DefaultVFS 102 list - Reader entry: ����   7  	 
+2019-01-07 at 03:10:16 CST DEBUG org.apache.ibatis.io.DefaultVFS 222 findJarForResource - Find JAR URL: file:/Users/kingdelee/IdeaProjects/eweb/sgg_mybatis_project/MyBatis_03_mapper/target/classes/com/atguigu/mybatis/dao/DepartmentMapper.xml
+2019-01-07 at 03:10:16 CST DEBUG org.apache.ibatis.io.DefaultVFS 248 findJarForResource - Not a JAR: file:/Users/kingdelee/IdeaProjects/eweb/sgg_mybatis_project/MyBatis_03_mapper/target/classes/com/atguigu/mybatis/dao/DepartmentMapper.xml
+2019-01-07 at 03:10:16 CST DEBUG org.apache.ibatis.io.DefaultVFS 102 list - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+2019-01-07 at 03:10:16 CST DEBUG org.apache.ibatis.io.DefaultVFS 222 findJarForResource - Find JAR URL: file:/Users/kingdelee/IdeaProjects/eweb/sgg_mybatis_project/MyBatis_03_mapper/target/classes/com/atguigu/mybatis/dao/EmployeeMapper.class
+2019-01-07 at 03:10:16 CST DEBUG org.apache.ibatis.io.DefaultVFS 248 findJarForResource - Not a JAR: file:/Users/kingdelee/IdeaProjects/eweb/sgg_mybatis_project/MyBatis_03_mapper/target/classes/com/atguigu/mybatis/dao/EmployeeMapper.class
+2019-01-07 at 03:10:16 CST DEBUG org.apache.ibatis.io.DefaultVFS 102 list - Reader entry: ����   7 % # $ getEmpByLastNameLikeReturnMap #(Ljava/lang/String;)Ljava/util/Map; 	Signature Z(Ljava/lang/String;)Ljava/util/Map<Ljava/lang/String;Lcom/atguigu/mybatis/bean/Employee;>; RuntimeVisibleAnnotations &Lorg/apache/ibatis/annotations/MapKey; value lastName getEmpByIdReturnMap $(Ljava/lang/Integer;)Ljava/util/Map; J(Ljava/lang/Integer;)Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>; getEmpsByLastNameLike $(Ljava/lang/String;)Ljava/util/List; I(Ljava/lang/String;)Ljava/util/List<Lcom/atguigu/mybatis/bean/Employee;>; getEmpByMap 4(Ljava/util/Map;)Lcom/atguigu/mybatis/bean/Employee; Z(Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)Lcom/atguigu/mybatis/bean/Employee; getEmpByIdAndLastName J(Ljava/lang/Integer;Ljava/lang/String;)Lcom/atguigu/mybatis/bean/Employee; "RuntimeVisibleParameterAnnotations %Lorg/apache/ibatis/annotations/Param; id 
+2019-01-07 at 03:10:16 CST DEBUG org.apache.ibatis.io.DefaultVFS 222 findJarForResource - Find JAR URL: file:/Users/kingdelee/IdeaProjects/eweb/sgg_mybatis_project/MyBatis_03_mapper/target/classes/com/atguigu/mybatis/dao/EmployeeMapper.xml
+2019-01-07 at 03:10:16 CST DEBUG org.apache.ibatis.io.DefaultVFS 248 findJarForResource - Not a JAR: file:/Users/kingdelee/IdeaProjects/eweb/sgg_mybatis_project/MyBatis_03_mapper/target/classes/com/atguigu/mybatis/dao/EmployeeMapper.xml
+2019-01-07 at 03:10:16 CST DEBUG org.apache.ibatis.io.DefaultVFS 102 list - Reader entry: <?xml version="1.0" encoding="UTF-8" ?>
+2019-01-07 at 03:10:16 CST DEBUG org.apache.ibatis.io.DefaultVFS 222 findJarForResource - Find JAR URL: file:/Users/kingdelee/IdeaProjects/eweb/sgg_mybatis_project/MyBatis_03_mapper/target/classes/com/atguigu/mybatis/dao/EmployeeMapperAnnotation.class
+2019-01-07 at 03:10:16 CST DEBUG org.apache.ibatis.io.DefaultVFS 248 findJarForResource - Not a JAR: file:/Users/kingdelee/IdeaProjects/eweb/sgg_mybatis_project/MyBatis_03_mapper/target/classes/com/atguigu/mybatis/dao/EmployeeMapperAnnotation.class
+2019-01-07 at 03:10:16 CST DEBUG org.apache.ibatis.io.DefaultVFS 102 list - Reader entry: ����   7 
+2019-01-07 at 03:10:16 CST DEBUG org.apache.ibatis.io.DefaultVFS 222 findJarForResource - Find JAR URL: file:/Users/kingdelee/IdeaProjects/eweb/sgg_mybatis_project/MyBatis_03_mapper/target/classes/com/atguigu/mybatis/dao/EmployeeMapperPlus.class
+2019-01-07 at 03:10:16 CST DEBUG org.apache.ibatis.io.DefaultVFS 248 findJarForResource - Not a JAR: file:/Users/kingdelee/IdeaProjects/eweb/sgg_mybatis_project/MyBatis_03_mapper/target/classes/com/atguigu/mybatis/dao/EmployeeMapperPlus.class
+2019-01-07 at 03:10:16 CST DEBUG org.apache.ibatis.io.DefaultVFS 102 list - Reader entry: ����   7    
+2019-01-07 at 03:10:16 CST DEBUG org.apache.ibatis.io.DefaultVFS 222 findJarForResource - Find JAR URL: file:/Users/kingdelee/IdeaProjects/eweb/sgg_mybatis_project/MyBatis_03_mapper/target/classes/com/atguigu/mybatis/dao/EmployeeMapperPlus.xml
+2019-01-07 at 03:10:16 CST DEBUG org.apache.ibatis.io.DefaultVFS 248 findJarForResource - Not a JAR: file:/Users/kingdelee/IdeaProjects/eweb/sgg_mybatis_project/MyBatis_03_mapper/target/classes/com/atguigu/mybatis/dao/EmployeeMapperPlus.xml
+2019-01-07 at 03:10:16 CST DEBUG org.apache.ibatis.io.DefaultVFS 102 list - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+2019-01-07 at 03:10:16 CST DEBUG org.apache.ibatis.io.ResolverUtil 256 addIfMatching - Checking to see if class com.atguigu.mybatis.dao.DepartmentMapper matches criteria [is assignable to Object]
+2019-01-07 at 03:10:16 CST DEBUG org.apache.ibatis.io.ResolverUtil 256 addIfMatching - Checking to see if class com.atguigu.mybatis.dao.EmployeeMapper matches criteria [is assignable to Object]
+2019-01-07 at 03:10:16 CST DEBUG org.apache.ibatis.io.ResolverUtil 256 addIfMatching - Checking to see if class com.atguigu.mybatis.dao.EmployeeMapperAnnotation matches criteria [is assignable to Object]
+2019-01-07 at 03:10:16 CST DEBUG org.apache.ibatis.io.ResolverUtil 256 addIfMatching - Checking to see if class com.atguigu.mybatis.dao.EmployeeMapperPlus matches criteria [is assignable to Object]
+2019-01-07 at 03:10:16 CST DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction 137 openConnection - Opening JDBC Connection
+2019-01-07 at 03:10:16 CST DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource 398 popConnection - Checked out connection 2032399795 from pool.
+2019-01-07 at 03:10:16 CST DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction 101 setDesiredAutoCommit - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@7923f5b3]
+2019-01-07 at 03:10:16 CST DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger 159 debug - ==>  Preparing: select * from tbl_employee where id=? 
+2019-01-07 at 03:10:16 CST DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger 159 debug - ==> Parameters: 2(Integer)
+2019-01-07 at 03:10:16 CST TRACE org.apache.ibatis.logging.jdbc.BaseJdbcLogger 165 trace - <==    Columns: id, last_name, gender, email, d_id
+2019-01-07 at 03:10:16 CST TRACE org.apache.ibatis.logging.jdbc.BaseJdbcLogger 165 trace - <==        Row: 2, jerry2, 0, jerry@atguigu.com, 2
+2019-01-07 at 03:10:16 CST DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger 159 debug - ====>  Preparing: select id, dept_name AS departmentName from tbl_dept where id=? 
+2019-01-07 at 03:10:16 CST DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger 159 debug - ====> Parameters: 2(Integer)
+2019-01-07 at 03:10:16 CST TRACE org.apache.ibatis.logging.jdbc.BaseJdbcLogger 165 trace - <====    Columns: id, departmentName
+2019-01-07 at 03:10:16 CST TRACE org.apache.ibatis.logging.jdbc.BaseJdbcLogger 165 trace - <====        Row: 2, 测试部
+2019-01-07 at 03:10:16 CST DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger 159 debug - <====      Total: 1
+2019-01-07 at 03:10:16 CST DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger 159 debug - <==      Total: 1
+2019-01-07 at 03:10:16 CST DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction 123 resetAutoCommit - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@7923f5b3]
+2019-01-07 at 03:10:16 CST DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction 91 close - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@7923f5b3]
+2019-01-07 at 03:10:16 CST DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource 363 pushConnection - Returned connection 2032399795 to pool.
+2019-01-07 at 03:10:38 CST DEBUG org.apache.ibatis.logging.LogFactory 135 setImplementation - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2019-01-07 at 03:10:38 CST DEBUG org.apache.ibatis.io.VFS 111 getClass - Class not found: org.jboss.vfs.VFS
+2019-01-07 at 03:10:38 CST DEBUG org.apache.ibatis.io.JBoss6VFS 142 setInvalid - JBoss 6 VFS API is not available in this environment.
+2019-01-07 at 03:10:38 CST DEBUG org.apache.ibatis.io.VFS 111 getClass - Class not found: org.jboss.vfs.VirtualFile
+2019-01-07 at 03:10:38 CST DEBUG org.apache.ibatis.io.VFS$VFSHolder 63 createVFS - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2019-01-07 at 03:10:38 CST DEBUG org.apache.ibatis.io.VFS$VFSHolder 77 createVFS - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2019-01-07 at 03:10:38 CST DEBUG org.apache.ibatis.io.DefaultVFS 222 findJarForResource - Find JAR URL: file:/Users/kingdelee/IdeaProjects/eweb/sgg_mybatis_project/MyBatis_03_mapper/target/classes/com/atguigu/mybatis/bean
+2019-01-07 at 03:10:38 CST DEBUG org.apache.ibatis.io.DefaultVFS 248 findJarForResource - Not a JAR: file:/Users/kingdelee/IdeaProjects/eweb/sgg_mybatis_project/MyBatis_03_mapper/target/classes/com/atguigu/mybatis/bean
+2019-01-07 at 03:10:38 CST DEBUG org.apache.ibatis.io.DefaultVFS 102 list - Reader entry: Department.class
+2019-01-07 at 03:10:38 CST DEBUG org.apache.ibatis.io.DefaultVFS 102 list - Reader entry: Employee.class
+2019-01-07 at 03:10:38 CST DEBUG org.apache.ibatis.io.DefaultVFS 113 list - Listing file:/Users/kingdelee/IdeaProjects/eweb/sgg_mybatis_project/MyBatis_03_mapper/target/classes/com/atguigu/mybatis/bean
+2019-01-07 at 03:10:38 CST DEBUG org.apache.ibatis.io.DefaultVFS 222 findJarForResource - Find JAR URL: file:/Users/kingdelee/IdeaProjects/eweb/sgg_mybatis_project/MyBatis_03_mapper/target/classes/com/atguigu/mybatis/bean/Department.class
+2019-01-07 at 03:10:38 CST DEBUG org.apache.ibatis.io.DefaultVFS 248 findJarForResource - Not a JAR: file:/Users/kingdelee/IdeaProjects/eweb/sgg_mybatis_project/MyBatis_03_mapper/target/classes/com/atguigu/mybatis/bean/Department.class
+2019-01-07 at 03:10:38 CST DEBUG org.apache.ibatis.io.DefaultVFS 102 list - Reader entry: ����   7 C
+2019-01-07 at 03:10:38 CST DEBUG org.apache.ibatis.io.DefaultVFS 222 findJarForResource - Find JAR URL: file:/Users/kingdelee/IdeaProjects/eweb/sgg_mybatis_project/MyBatis_03_mapper/target/classes/com/atguigu/mybatis/bean/Employee.class
+2019-01-07 at 03:10:38 CST DEBUG org.apache.ibatis.io.DefaultVFS 248 findJarForResource - Not a JAR: file:/Users/kingdelee/IdeaProjects/eweb/sgg_mybatis_project/MyBatis_03_mapper/target/classes/com/atguigu/mybatis/bean/Employee.class
+2019-01-07 at 03:10:38 CST DEBUG org.apache.ibatis.io.DefaultVFS 102 list - Reader entry: ����   7 M
+2019-01-07 at 03:10:38 CST DEBUG org.apache.ibatis.io.ResolverUtil 256 addIfMatching - Checking to see if class com.atguigu.mybatis.bean.Department matches criteria [is assignable to Object]
+2019-01-07 at 03:10:38 CST DEBUG org.apache.ibatis.io.ResolverUtil 256 addIfMatching - Checking to see if class com.atguigu.mybatis.bean.Employee matches criteria [is assignable to Object]
+2019-01-07 at 03:10:38 CST DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource 335 forceCloseAll - PooledDataSource forcefully closed/removed all connections.
+2019-01-07 at 03:10:38 CST DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource 335 forceCloseAll - PooledDataSource forcefully closed/removed all connections.
+2019-01-07 at 03:10:38 CST DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource 335 forceCloseAll - PooledDataSource forcefully closed/removed all connections.
+2019-01-07 at 03:10:38 CST DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource 335 forceCloseAll - PooledDataSource forcefully closed/removed all connections.
+2019-01-07 at 03:10:38 CST DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource 406 popConnection - Created connection 2032399795.
+2019-01-07 at 03:10:38 CST DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource 363 pushConnection - Returned connection 2032399795 to pool.
+2019-01-07 at 03:10:38 CST DEBUG org.apache.ibatis.io.DefaultVFS 222 findJarForResource - Find JAR URL: file:/Users/kingdelee/IdeaProjects/eweb/sgg_mybatis_project/MyBatis_03_mapper/target/classes/com/atguigu/mybatis/dao
+2019-01-07 at 03:10:38 CST DEBUG org.apache.ibatis.io.DefaultVFS 248 findJarForResource - Not a JAR: file:/Users/kingdelee/IdeaProjects/eweb/sgg_mybatis_project/MyBatis_03_mapper/target/classes/com/atguigu/mybatis/dao
+2019-01-07 at 03:10:38 CST DEBUG org.apache.ibatis.io.DefaultVFS 102 list - Reader entry: DepartmentMapper.class
+2019-01-07 at 03:10:38 CST DEBUG org.apache.ibatis.io.DefaultVFS 102 list - Reader entry: DepartmentMapper.xml
+2019-01-07 at 03:10:38 CST DEBUG org.apache.ibatis.io.DefaultVFS 102 list - Reader entry: EmployeeMapper.class
+2019-01-07 at 03:10:38 CST DEBUG org.apache.ibatis.io.DefaultVFS 102 list - Reader entry: EmployeeMapper.xml
+2019-01-07 at 03:10:38 CST DEBUG org.apache.ibatis.io.DefaultVFS 102 list - Reader entry: EmployeeMapperAnnotation.class
+2019-01-07 at 03:10:38 CST DEBUG org.apache.ibatis.io.DefaultVFS 102 list - Reader entry: EmployeeMapperPlus.class
+2019-01-07 at 03:10:38 CST DEBUG org.apache.ibatis.io.DefaultVFS 102 list - Reader entry: EmployeeMapperPlus.xml
+2019-01-07 at 03:10:38 CST DEBUG org.apache.ibatis.io.DefaultVFS 113 list - Listing file:/Users/kingdelee/IdeaProjects/eweb/sgg_mybatis_project/MyBatis_03_mapper/target/classes/com/atguigu/mybatis/dao
+2019-01-07 at 03:10:38 CST DEBUG org.apache.ibatis.io.DefaultVFS 222 findJarForResource - Find JAR URL: file:/Users/kingdelee/IdeaProjects/eweb/sgg_mybatis_project/MyBatis_03_mapper/target/classes/com/atguigu/mybatis/dao/DepartmentMapper.class
+2019-01-07 at 03:10:38 CST DEBUG org.apache.ibatis.io.DefaultVFS 248 findJarForResource - Not a JAR: file:/Users/kingdelee/IdeaProjects/eweb/sgg_mybatis_project/MyBatis_03_mapper/target/classes/com/atguigu/mybatis/dao/DepartmentMapper.class
+2019-01-07 at 03:10:38 CST DEBUG org.apache.ibatis.io.DefaultVFS 102 list - Reader entry: ����   7  	 
+2019-01-07 at 03:10:38 CST DEBUG org.apache.ibatis.io.DefaultVFS 222 findJarForResource - Find JAR URL: file:/Users/kingdelee/IdeaProjects/eweb/sgg_mybatis_project/MyBatis_03_mapper/target/classes/com/atguigu/mybatis/dao/DepartmentMapper.xml
+2019-01-07 at 03:10:38 CST DEBUG org.apache.ibatis.io.DefaultVFS 248 findJarForResource - Not a JAR: file:/Users/kingdelee/IdeaProjects/eweb/sgg_mybatis_project/MyBatis_03_mapper/target/classes/com/atguigu/mybatis/dao/DepartmentMapper.xml
+2019-01-07 at 03:10:38 CST DEBUG org.apache.ibatis.io.DefaultVFS 102 list - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+2019-01-07 at 03:10:38 CST DEBUG org.apache.ibatis.io.DefaultVFS 222 findJarForResource - Find JAR URL: file:/Users/kingdelee/IdeaProjects/eweb/sgg_mybatis_project/MyBatis_03_mapper/target/classes/com/atguigu/mybatis/dao/EmployeeMapper.class
+2019-01-07 at 03:10:38 CST DEBUG org.apache.ibatis.io.DefaultVFS 248 findJarForResource - Not a JAR: file:/Users/kingdelee/IdeaProjects/eweb/sgg_mybatis_project/MyBatis_03_mapper/target/classes/com/atguigu/mybatis/dao/EmployeeMapper.class
+2019-01-07 at 03:10:38 CST DEBUG org.apache.ibatis.io.DefaultVFS 102 list - Reader entry: ����   7 % # $ getEmpByLastNameLikeReturnMap #(Ljava/lang/String;)Ljava/util/Map; 	Signature Z(Ljava/lang/String;)Ljava/util/Map<Ljava/lang/String;Lcom/atguigu/mybatis/bean/Employee;>; RuntimeVisibleAnnotations &Lorg/apache/ibatis/annotations/MapKey; value lastName getEmpByIdReturnMap $(Ljava/lang/Integer;)Ljava/util/Map; J(Ljava/lang/Integer;)Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>; getEmpsByLastNameLike $(Ljava/lang/String;)Ljava/util/List; I(Ljava/lang/String;)Ljava/util/List<Lcom/atguigu/mybatis/bean/Employee;>; getEmpByMap 4(Ljava/util/Map;)Lcom/atguigu/mybatis/bean/Employee; Z(Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)Lcom/atguigu/mybatis/bean/Employee; getEmpByIdAndLastName J(Ljava/lang/Integer;Ljava/lang/String;)Lcom/atguigu/mybatis/bean/Employee; "RuntimeVisibleParameterAnnotations %Lorg/apache/ibatis/annotations/Param; id 
+2019-01-07 at 03:10:38 CST DEBUG org.apache.ibatis.io.DefaultVFS 222 findJarForResource - Find JAR URL: file:/Users/kingdelee/IdeaProjects/eweb/sgg_mybatis_project/MyBatis_03_mapper/target/classes/com/atguigu/mybatis/dao/EmployeeMapper.xml
+2019-01-07 at 03:10:38 CST DEBUG org.apache.ibatis.io.DefaultVFS 248 findJarForResource - Not a JAR: file:/Users/kingdelee/IdeaProjects/eweb/sgg_mybatis_project/MyBatis_03_mapper/target/classes/com/atguigu/mybatis/dao/EmployeeMapper.xml
+2019-01-07 at 03:10:38 CST DEBUG org.apache.ibatis.io.DefaultVFS 102 list - Reader entry: <?xml version="1.0" encoding="UTF-8" ?>
+2019-01-07 at 03:10:38 CST DEBUG org.apache.ibatis.io.DefaultVFS 222 findJarForResource - Find JAR URL: file:/Users/kingdelee/IdeaProjects/eweb/sgg_mybatis_project/MyBatis_03_mapper/target/classes/com/atguigu/mybatis/dao/EmployeeMapperAnnotation.class
+2019-01-07 at 03:10:38 CST DEBUG org.apache.ibatis.io.DefaultVFS 248 findJarForResource - Not a JAR: file:/Users/kingdelee/IdeaProjects/eweb/sgg_mybatis_project/MyBatis_03_mapper/target/classes/com/atguigu/mybatis/dao/EmployeeMapperAnnotation.class
+2019-01-07 at 03:10:38 CST DEBUG org.apache.ibatis.io.DefaultVFS 102 list - Reader entry: ����   7 
+2019-01-07 at 03:10:38 CST DEBUG org.apache.ibatis.io.DefaultVFS 222 findJarForResource - Find JAR URL: file:/Users/kingdelee/IdeaProjects/eweb/sgg_mybatis_project/MyBatis_03_mapper/target/classes/com/atguigu/mybatis/dao/EmployeeMapperPlus.class
+2019-01-07 at 03:10:38 CST DEBUG org.apache.ibatis.io.DefaultVFS 248 findJarForResource - Not a JAR: file:/Users/kingdelee/IdeaProjects/eweb/sgg_mybatis_project/MyBatis_03_mapper/target/classes/com/atguigu/mybatis/dao/EmployeeMapperPlus.class
+2019-01-07 at 03:10:38 CST DEBUG org.apache.ibatis.io.DefaultVFS 102 list - Reader entry: ����   7    
+2019-01-07 at 03:10:38 CST DEBUG org.apache.ibatis.io.DefaultVFS 222 findJarForResource - Find JAR URL: file:/Users/kingdelee/IdeaProjects/eweb/sgg_mybatis_project/MyBatis_03_mapper/target/classes/com/atguigu/mybatis/dao/EmployeeMapperPlus.xml
+2019-01-07 at 03:10:38 CST DEBUG org.apache.ibatis.io.DefaultVFS 248 findJarForResource - Not a JAR: file:/Users/kingdelee/IdeaProjects/eweb/sgg_mybatis_project/MyBatis_03_mapper/target/classes/com/atguigu/mybatis/dao/EmployeeMapperPlus.xml
+2019-01-07 at 03:10:38 CST DEBUG org.apache.ibatis.io.DefaultVFS 102 list - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+2019-01-07 at 03:10:38 CST DEBUG org.apache.ibatis.io.ResolverUtil 256 addIfMatching - Checking to see if class com.atguigu.mybatis.dao.DepartmentMapper matches criteria [is assignable to Object]
+2019-01-07 at 03:10:38 CST DEBUG org.apache.ibatis.io.ResolverUtil 256 addIfMatching - Checking to see if class com.atguigu.mybatis.dao.EmployeeMapper matches criteria [is assignable to Object]
+2019-01-07 at 03:10:38 CST DEBUG org.apache.ibatis.io.ResolverUtil 256 addIfMatching - Checking to see if class com.atguigu.mybatis.dao.EmployeeMapperAnnotation matches criteria [is assignable to Object]
+2019-01-07 at 03:10:38 CST DEBUG org.apache.ibatis.io.ResolverUtil 256 addIfMatching - Checking to see if class com.atguigu.mybatis.dao.EmployeeMapperPlus matches criteria [is assignable to Object]
+2019-01-07 at 03:10:39 CST DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction 137 openConnection - Opening JDBC Connection
+2019-01-07 at 03:10:39 CST DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource 398 popConnection - Checked out connection 2032399795 from pool.
+2019-01-07 at 03:10:39 CST DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction 101 setDesiredAutoCommit - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@7923f5b3]
+2019-01-07 at 03:10:39 CST DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger 159 debug - ==>  Preparing: select * from tbl_employee where id=? 
+2019-01-07 at 03:10:39 CST DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger 159 debug - ==> Parameters: 2(Integer)
+2019-01-07 at 03:10:39 CST TRACE org.apache.ibatis.logging.jdbc.BaseJdbcLogger 165 trace - <==    Columns: id, last_name, gender, email, d_id
+2019-01-07 at 03:10:39 CST TRACE org.apache.ibatis.logging.jdbc.BaseJdbcLogger 165 trace - <==        Row: 2, jerry2, 0, jerry@atguigu.com, 2
+2019-01-07 at 03:10:39 CST DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger 159 debug - ====>  Preparing: select id, dept_name AS departmentName from tbl_dept where id=? 
+2019-01-07 at 03:10:39 CST DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger 159 debug - ====> Parameters: 2(Integer)
+2019-01-07 at 03:10:39 CST TRACE org.apache.ibatis.logging.jdbc.BaseJdbcLogger 165 trace - <====    Columns: id, departmentName
+2019-01-07 at 03:10:39 CST TRACE org.apache.ibatis.logging.jdbc.BaseJdbcLogger 165 trace - <====        Row: 2, 测试部
+2019-01-07 at 03:10:39 CST DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger 159 debug - <====      Total: 1
+2019-01-07 at 03:10:39 CST DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger 159 debug - <==      Total: 1
+2019-01-07 at 03:10:39 CST DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction 123 resetAutoCommit - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@7923f5b3]
+2019-01-07 at 03:10:39 CST DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction 91 close - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@7923f5b3]
+2019-01-07 at 03:10:39 CST DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource 363 pushConnection - Returned connection 2032399795 to pool.
+2019-01-07 at 03:21:24 CST DEBUG org.apache.ibatis.logging.LogFactory 135 setImplementation - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2019-01-07 at 03:21:24 CST DEBUG org.apache.ibatis.io.VFS 111 getClass - Class not found: org.jboss.vfs.VFS
+2019-01-07 at 03:21:24 CST DEBUG org.apache.ibatis.io.JBoss6VFS 142 setInvalid - JBoss 6 VFS API is not available in this environment.
+2019-01-07 at 03:21:24 CST DEBUG org.apache.ibatis.io.VFS 111 getClass - Class not found: org.jboss.vfs.VirtualFile
+2019-01-07 at 03:21:24 CST DEBUG org.apache.ibatis.io.VFS$VFSHolder 63 createVFS - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2019-01-07 at 03:21:24 CST DEBUG org.apache.ibatis.io.VFS$VFSHolder 77 createVFS - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2019-01-07 at 03:21:24 CST DEBUG org.apache.ibatis.io.DefaultVFS 222 findJarForResource - Find JAR URL: file:/Users/kingdelee/IdeaProjects/eweb/sgg_mybatis_project/MyBatis_03_mapper/target/classes/com/atguigu/mybatis/bean
+2019-01-07 at 03:21:24 CST DEBUG org.apache.ibatis.io.DefaultVFS 248 findJarForResource - Not a JAR: file:/Users/kingdelee/IdeaProjects/eweb/sgg_mybatis_project/MyBatis_03_mapper/target/classes/com/atguigu/mybatis/bean
+2019-01-07 at 03:21:24 CST DEBUG org.apache.ibatis.io.DefaultVFS 102 list - Reader entry: Department.class
+2019-01-07 at 03:21:24 CST DEBUG org.apache.ibatis.io.DefaultVFS 102 list - Reader entry: Employee.class
+2019-01-07 at 03:21:24 CST DEBUG org.apache.ibatis.io.DefaultVFS 113 list - Listing file:/Users/kingdelee/IdeaProjects/eweb/sgg_mybatis_project/MyBatis_03_mapper/target/classes/com/atguigu/mybatis/bean
+2019-01-07 at 03:21:24 CST DEBUG org.apache.ibatis.io.DefaultVFS 222 findJarForResource - Find JAR URL: file:/Users/kingdelee/IdeaProjects/eweb/sgg_mybatis_project/MyBatis_03_mapper/target/classes/com/atguigu/mybatis/bean/Department.class
+2019-01-07 at 03:21:24 CST DEBUG org.apache.ibatis.io.DefaultVFS 248 findJarForResource - Not a JAR: file:/Users/kingdelee/IdeaProjects/eweb/sgg_mybatis_project/MyBatis_03_mapper/target/classes/com/atguigu/mybatis/bean/Department.class
+2019-01-07 at 03:21:24 CST DEBUG org.apache.ibatis.io.DefaultVFS 102 list - Reader entry: ����   7 C
+2019-01-07 at 03:21:24 CST DEBUG org.apache.ibatis.io.DefaultVFS 222 findJarForResource - Find JAR URL: file:/Users/kingdelee/IdeaProjects/eweb/sgg_mybatis_project/MyBatis_03_mapper/target/classes/com/atguigu/mybatis/bean/Employee.class
+2019-01-07 at 03:21:24 CST DEBUG org.apache.ibatis.io.DefaultVFS 248 findJarForResource - Not a JAR: file:/Users/kingdelee/IdeaProjects/eweb/sgg_mybatis_project/MyBatis_03_mapper/target/classes/com/atguigu/mybatis/bean/Employee.class
+2019-01-07 at 03:21:24 CST DEBUG org.apache.ibatis.io.DefaultVFS 102 list - Reader entry: ����   7 M
+2019-01-07 at 03:21:24 CST DEBUG org.apache.ibatis.io.ResolverUtil 256 addIfMatching - Checking to see if class com.atguigu.mybatis.bean.Department matches criteria [is assignable to Object]
+2019-01-07 at 03:21:24 CST DEBUG org.apache.ibatis.io.ResolverUtil 256 addIfMatching - Checking to see if class com.atguigu.mybatis.bean.Employee matches criteria [is assignable to Object]
+2019-01-07 at 03:21:24 CST DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource 335 forceCloseAll - PooledDataSource forcefully closed/removed all connections.
+2019-01-07 at 03:21:24 CST DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource 335 forceCloseAll - PooledDataSource forcefully closed/removed all connections.
+2019-01-07 at 03:21:24 CST DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource 335 forceCloseAll - PooledDataSource forcefully closed/removed all connections.
+2019-01-07 at 03:21:24 CST DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource 335 forceCloseAll - PooledDataSource forcefully closed/removed all connections.
+2019-01-07 at 03:21:25 CST DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource 406 popConnection - Created connection 2012095985.
+2019-01-07 at 03:21:25 CST DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource 363 pushConnection - Returned connection 2012095985 to pool.
+2019-01-07 at 03:21:25 CST DEBUG org.apache.ibatis.io.DefaultVFS 222 findJarForResource - Find JAR URL: file:/Users/kingdelee/IdeaProjects/eweb/sgg_mybatis_project/MyBatis_03_mapper/target/classes/com/atguigu/mybatis/dao
+2019-01-07 at 03:21:25 CST DEBUG org.apache.ibatis.io.DefaultVFS 248 findJarForResource - Not a JAR: file:/Users/kingdelee/IdeaProjects/eweb/sgg_mybatis_project/MyBatis_03_mapper/target/classes/com/atguigu/mybatis/dao
+2019-01-07 at 03:21:25 CST DEBUG org.apache.ibatis.io.DefaultVFS 102 list - Reader entry: DepartmentMapper.class
+2019-01-07 at 03:21:25 CST DEBUG org.apache.ibatis.io.DefaultVFS 102 list - Reader entry: DepartmentMapper.xml
+2019-01-07 at 03:21:25 CST DEBUG org.apache.ibatis.io.DefaultVFS 102 list - Reader entry: EmployeeMapper.class
+2019-01-07 at 03:21:25 CST DEBUG org.apache.ibatis.io.DefaultVFS 102 list - Reader entry: EmployeeMapper.xml
+2019-01-07 at 03:21:25 CST DEBUG org.apache.ibatis.io.DefaultVFS 102 list - Reader entry: EmployeeMapperAnnotation.class
+2019-01-07 at 03:21:25 CST DEBUG org.apache.ibatis.io.DefaultVFS 102 list - Reader entry: EmployeeMapperPlus.class
+2019-01-07 at 03:21:25 CST DEBUG org.apache.ibatis.io.DefaultVFS 102 list - Reader entry: EmployeeMapperPlus.xml
+2019-01-07 at 03:21:25 CST DEBUG org.apache.ibatis.io.DefaultVFS 113 list - Listing file:/Users/kingdelee/IdeaProjects/eweb/sgg_mybatis_project/MyBatis_03_mapper/target/classes/com/atguigu/mybatis/dao
+2019-01-07 at 03:21:25 CST DEBUG org.apache.ibatis.io.DefaultVFS 222 findJarForResource - Find JAR URL: file:/Users/kingdelee/IdeaProjects/eweb/sgg_mybatis_project/MyBatis_03_mapper/target/classes/com/atguigu/mybatis/dao/DepartmentMapper.class
+2019-01-07 at 03:21:25 CST DEBUG org.apache.ibatis.io.DefaultVFS 248 findJarForResource - Not a JAR: file:/Users/kingdelee/IdeaProjects/eweb/sgg_mybatis_project/MyBatis_03_mapper/target/classes/com/atguigu/mybatis/dao/DepartmentMapper.class
+2019-01-07 at 03:21:25 CST DEBUG org.apache.ibatis.io.DefaultVFS 102 list - Reader entry: ����   7  	 
+2019-01-07 at 03:21:25 CST DEBUG org.apache.ibatis.io.DefaultVFS 222 findJarForResource - Find JAR URL: file:/Users/kingdelee/IdeaProjects/eweb/sgg_mybatis_project/MyBatis_03_mapper/target/classes/com/atguigu/mybatis/dao/DepartmentMapper.xml
+2019-01-07 at 03:21:25 CST DEBUG org.apache.ibatis.io.DefaultVFS 248 findJarForResource - Not a JAR: file:/Users/kingdelee/IdeaProjects/eweb/sgg_mybatis_project/MyBatis_03_mapper/target/classes/com/atguigu/mybatis/dao/DepartmentMapper.xml
+2019-01-07 at 03:21:25 CST DEBUG org.apache.ibatis.io.DefaultVFS 102 list - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+2019-01-07 at 03:21:25 CST DEBUG org.apache.ibatis.io.DefaultVFS 222 findJarForResource - Find JAR URL: file:/Users/kingdelee/IdeaProjects/eweb/sgg_mybatis_project/MyBatis_03_mapper/target/classes/com/atguigu/mybatis/dao/EmployeeMapper.class
+2019-01-07 at 03:21:25 CST DEBUG org.apache.ibatis.io.DefaultVFS 248 findJarForResource - Not a JAR: file:/Users/kingdelee/IdeaProjects/eweb/sgg_mybatis_project/MyBatis_03_mapper/target/classes/com/atguigu/mybatis/dao/EmployeeMapper.class
+2019-01-07 at 03:21:25 CST DEBUG org.apache.ibatis.io.DefaultVFS 102 list - Reader entry: ����   7 % # $ getEmpByLastNameLikeReturnMap #(Ljava/lang/String;)Ljava/util/Map; 	Signature Z(Ljava/lang/String;)Ljava/util/Map<Ljava/lang/String;Lcom/atguigu/mybatis/bean/Employee;>; RuntimeVisibleAnnotations &Lorg/apache/ibatis/annotations/MapKey; value lastName getEmpByIdReturnMap $(Ljava/lang/Integer;)Ljava/util/Map; J(Ljava/lang/Integer;)Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>; getEmpsByLastNameLike $(Ljava/lang/String;)Ljava/util/List; I(Ljava/lang/String;)Ljava/util/List<Lcom/atguigu/mybatis/bean/Employee;>; getEmpByMap 4(Ljava/util/Map;)Lcom/atguigu/mybatis/bean/Employee; Z(Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)Lcom/atguigu/mybatis/bean/Employee; getEmpByIdAndLastName J(Ljava/lang/Integer;Ljava/lang/String;)Lcom/atguigu/mybatis/bean/Employee; "RuntimeVisibleParameterAnnotations %Lorg/apache/ibatis/annotations/Param; id 
+2019-01-07 at 03:21:25 CST DEBUG org.apache.ibatis.io.DefaultVFS 222 findJarForResource - Find JAR URL: file:/Users/kingdelee/IdeaProjects/eweb/sgg_mybatis_project/MyBatis_03_mapper/target/classes/com/atguigu/mybatis/dao/EmployeeMapper.xml
+2019-01-07 at 03:21:25 CST DEBUG org.apache.ibatis.io.DefaultVFS 248 findJarForResource - Not a JAR: file:/Users/kingdelee/IdeaProjects/eweb/sgg_mybatis_project/MyBatis_03_mapper/target/classes/com/atguigu/mybatis/dao/EmployeeMapper.xml
+2019-01-07 at 03:21:25 CST DEBUG org.apache.ibatis.io.DefaultVFS 102 list - Reader entry: <?xml version="1.0" encoding="UTF-8" ?>
+2019-01-07 at 03:21:25 CST DEBUG org.apache.ibatis.io.DefaultVFS 222 findJarForResource - Find JAR URL: file:/Users/kingdelee/IdeaProjects/eweb/sgg_mybatis_project/MyBatis_03_mapper/target/classes/com/atguigu/mybatis/dao/EmployeeMapperAnnotation.class
+2019-01-07 at 03:21:25 CST DEBUG org.apache.ibatis.io.DefaultVFS 248 findJarForResource - Not a JAR: file:/Users/kingdelee/IdeaProjects/eweb/sgg_mybatis_project/MyBatis_03_mapper/target/classes/com/atguigu/mybatis/dao/EmployeeMapperAnnotation.class
+2019-01-07 at 03:21:25 CST DEBUG org.apache.ibatis.io.DefaultVFS 102 list - Reader entry: ����   7 
+2019-01-07 at 03:21:25 CST DEBUG org.apache.ibatis.io.DefaultVFS 222 findJarForResource - Find JAR URL: file:/Users/kingdelee/IdeaProjects/eweb/sgg_mybatis_project/MyBatis_03_mapper/target/classes/com/atguigu/mybatis/dao/EmployeeMapperPlus.class
+2019-01-07 at 03:21:25 CST DEBUG org.apache.ibatis.io.DefaultVFS 248 findJarForResource - Not a JAR: file:/Users/kingdelee/IdeaProjects/eweb/sgg_mybatis_project/MyBatis_03_mapper/target/classes/com/atguigu/mybatis/dao/EmployeeMapperPlus.class
+2019-01-07 at 03:21:25 CST DEBUG org.apache.ibatis.io.DefaultVFS 102 list - Reader entry: ����   7    
+2019-01-07 at 03:21:25 CST DEBUG org.apache.ibatis.io.DefaultVFS 222 findJarForResource - Find JAR URL: file:/Users/kingdelee/IdeaProjects/eweb/sgg_mybatis_project/MyBatis_03_mapper/target/classes/com/atguigu/mybatis/dao/EmployeeMapperPlus.xml
+2019-01-07 at 03:21:25 CST DEBUG org.apache.ibatis.io.DefaultVFS 248 findJarForResource - Not a JAR: file:/Users/kingdelee/IdeaProjects/eweb/sgg_mybatis_project/MyBatis_03_mapper/target/classes/com/atguigu/mybatis/dao/EmployeeMapperPlus.xml
+2019-01-07 at 03:21:25 CST DEBUG org.apache.ibatis.io.DefaultVFS 102 list - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+2019-01-07 at 03:21:25 CST DEBUG org.apache.ibatis.io.ResolverUtil 256 addIfMatching - Checking to see if class com.atguigu.mybatis.dao.DepartmentMapper matches criteria [is assignable to Object]
+2019-01-07 at 03:21:25 CST DEBUG org.apache.ibatis.io.ResolverUtil 256 addIfMatching - Checking to see if class com.atguigu.mybatis.dao.EmployeeMapper matches criteria [is assignable to Object]
+2019-01-07 at 03:21:25 CST DEBUG org.apache.ibatis.io.ResolverUtil 256 addIfMatching - Checking to see if class com.atguigu.mybatis.dao.EmployeeMapperAnnotation matches criteria [is assignable to Object]
+2019-01-07 at 03:21:25 CST DEBUG org.apache.ibatis.io.ResolverUtil 256 addIfMatching - Checking to see if class com.atguigu.mybatis.dao.EmployeeMapperPlus matches criteria [is assignable to Object]
+2019-01-07 at 03:21:25 CST DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction 137 openConnection - Opening JDBC Connection
+2019-01-07 at 03:21:25 CST DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource 398 popConnection - Checked out connection 2012095985 from pool.
+2019-01-07 at 03:21:25 CST DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction 101 setDesiredAutoCommit - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@77ee25f1]
+2019-01-07 at 03:21:25 CST DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger 159 debug - ==>  Preparing: select * from tbl_employee where id=? 
+2019-01-07 at 03:21:25 CST DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger 159 debug - ==> Parameters: 1(Integer)
+2019-01-07 at 03:21:25 CST TRACE org.apache.ibatis.logging.jdbc.BaseJdbcLogger 165 trace - <==    Columns: id, last_name, gender, email, d_id
+2019-01-07 at 03:21:25 CST TRACE org.apache.ibatis.logging.jdbc.BaseJdbcLogger 165 trace - <==        Row: 1, tom, 0, tom@atguigu.com, 1
+2019-01-07 at 03:21:25 CST DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger 159 debug - <==      Total: 1
+2019-01-07 at 03:21:25 CST DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction 123 resetAutoCommit - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@77ee25f1]
+2019-01-07 at 03:21:25 CST DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction 91 close - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@77ee25f1]
+2019-01-07 at 03:21:25 CST DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource 363 pushConnection - Returned connection 2012095985 to pool.
+2019-01-07 at 03:22:56 CST DEBUG org.apache.ibatis.logging.LogFactory 135 setImplementation - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2019-01-07 at 03:22:56 CST DEBUG org.apache.ibatis.io.VFS 111 getClass - Class not found: org.jboss.vfs.VFS
+2019-01-07 at 03:22:56 CST DEBUG org.apache.ibatis.io.JBoss6VFS 142 setInvalid - JBoss 6 VFS API is not available in this environment.
+2019-01-07 at 03:22:56 CST DEBUG org.apache.ibatis.io.VFS 111 getClass - Class not found: org.jboss.vfs.VirtualFile
+2019-01-07 at 03:22:56 CST DEBUG org.apache.ibatis.io.VFS$VFSHolder 63 createVFS - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2019-01-07 at 03:22:56 CST DEBUG org.apache.ibatis.io.VFS$VFSHolder 77 createVFS - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2019-01-07 at 03:22:56 CST DEBUG org.apache.ibatis.io.DefaultVFS 222 findJarForResource - Find JAR URL: file:/Users/kingdelee/IdeaProjects/eweb/sgg_mybatis_project/MyBatis_03_mapper/target/classes/com/atguigu/mybatis/bean
+2019-01-07 at 03:22:56 CST DEBUG org.apache.ibatis.io.DefaultVFS 248 findJarForResource - Not a JAR: file:/Users/kingdelee/IdeaProjects/eweb/sgg_mybatis_project/MyBatis_03_mapper/target/classes/com/atguigu/mybatis/bean
+2019-01-07 at 03:22:56 CST DEBUG org.apache.ibatis.io.DefaultVFS 102 list - Reader entry: Department.class
+2019-01-07 at 03:22:56 CST DEBUG org.apache.ibatis.io.DefaultVFS 102 list - Reader entry: Employee.class
+2019-01-07 at 03:22:56 CST DEBUG org.apache.ibatis.io.DefaultVFS 113 list - Listing file:/Users/kingdelee/IdeaProjects/eweb/sgg_mybatis_project/MyBatis_03_mapper/target/classes/com/atguigu/mybatis/bean
+2019-01-07 at 03:22:56 CST DEBUG org.apache.ibatis.io.DefaultVFS 222 findJarForResource - Find JAR URL: file:/Users/kingdelee/IdeaProjects/eweb/sgg_mybatis_project/MyBatis_03_mapper/target/classes/com/atguigu/mybatis/bean/Department.class
+2019-01-07 at 03:22:56 CST DEBUG org.apache.ibatis.io.DefaultVFS 248 findJarForResource - Not a JAR: file:/Users/kingdelee/IdeaProjects/eweb/sgg_mybatis_project/MyBatis_03_mapper/target/classes/com/atguigu/mybatis/bean/Department.class
+2019-01-07 at 03:22:56 CST DEBUG org.apache.ibatis.io.DefaultVFS 102 list - Reader entry: ����   7 C
+2019-01-07 at 03:22:56 CST DEBUG org.apache.ibatis.io.DefaultVFS 222 findJarForResource - Find JAR URL: file:/Users/kingdelee/IdeaProjects/eweb/sgg_mybatis_project/MyBatis_03_mapper/target/classes/com/atguigu/mybatis/bean/Employee.class
+2019-01-07 at 03:22:56 CST DEBUG org.apache.ibatis.io.DefaultVFS 248 findJarForResource - Not a JAR: file:/Users/kingdelee/IdeaProjects/eweb/sgg_mybatis_project/MyBatis_03_mapper/target/classes/com/atguigu/mybatis/bean/Employee.class
+2019-01-07 at 03:22:56 CST DEBUG org.apache.ibatis.io.DefaultVFS 102 list - Reader entry: ����   7 M
+2019-01-07 at 03:22:56 CST DEBUG org.apache.ibatis.io.ResolverUtil 256 addIfMatching - Checking to see if class com.atguigu.mybatis.bean.Department matches criteria [is assignable to Object]
+2019-01-07 at 03:22:56 CST DEBUG org.apache.ibatis.io.ResolverUtil 256 addIfMatching - Checking to see if class com.atguigu.mybatis.bean.Employee matches criteria [is assignable to Object]
+2019-01-07 at 03:22:56 CST DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource 335 forceCloseAll - PooledDataSource forcefully closed/removed all connections.
+2019-01-07 at 03:22:56 CST DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource 335 forceCloseAll - PooledDataSource forcefully closed/removed all connections.
+2019-01-07 at 03:22:56 CST DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource 335 forceCloseAll - PooledDataSource forcefully closed/removed all connections.
+2019-01-07 at 03:22:56 CST DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource 335 forceCloseAll - PooledDataSource forcefully closed/removed all connections.
+2019-01-07 at 03:22:56 CST DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource 406 popConnection - Created connection 1801704517.
+2019-01-07 at 03:22:56 CST DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource 363 pushConnection - Returned connection 1801704517 to pool.
+2019-01-07 at 03:22:56 CST DEBUG org.apache.ibatis.io.DefaultVFS 222 findJarForResource - Find JAR URL: file:/Users/kingdelee/IdeaProjects/eweb/sgg_mybatis_project/MyBatis_03_mapper/target/classes/com/atguigu/mybatis/dao
+2019-01-07 at 03:22:56 CST DEBUG org.apache.ibatis.io.DefaultVFS 248 findJarForResource - Not a JAR: file:/Users/kingdelee/IdeaProjects/eweb/sgg_mybatis_project/MyBatis_03_mapper/target/classes/com/atguigu/mybatis/dao
+2019-01-07 at 03:22:56 CST DEBUG org.apache.ibatis.io.DefaultVFS 102 list - Reader entry: DepartmentMapper.class
+2019-01-07 at 03:22:56 CST DEBUG org.apache.ibatis.io.DefaultVFS 102 list - Reader entry: DepartmentMapper.xml
+2019-01-07 at 03:22:56 CST DEBUG org.apache.ibatis.io.DefaultVFS 102 list - Reader entry: EmployeeMapper.class
+2019-01-07 at 03:22:56 CST DEBUG org.apache.ibatis.io.DefaultVFS 102 list - Reader entry: EmployeeMapper.xml
+2019-01-07 at 03:22:56 CST DEBUG org.apache.ibatis.io.DefaultVFS 102 list - Reader entry: EmployeeMapperAnnotation.class
+2019-01-07 at 03:22:56 CST DEBUG org.apache.ibatis.io.DefaultVFS 102 list - Reader entry: EmployeeMapperPlus.class
+2019-01-07 at 03:22:56 CST DEBUG org.apache.ibatis.io.DefaultVFS 102 list - Reader entry: EmployeeMapperPlus.xml
+2019-01-07 at 03:22:56 CST DEBUG org.apache.ibatis.io.DefaultVFS 113 list - Listing file:/Users/kingdelee/IdeaProjects/eweb/sgg_mybatis_project/MyBatis_03_mapper/target/classes/com/atguigu/mybatis/dao
+2019-01-07 at 03:22:56 CST DEBUG org.apache.ibatis.io.DefaultVFS 222 findJarForResource - Find JAR URL: file:/Users/kingdelee/IdeaProjects/eweb/sgg_mybatis_project/MyBatis_03_mapper/target/classes/com/atguigu/mybatis/dao/DepartmentMapper.class
+2019-01-07 at 03:22:56 CST DEBUG org.apache.ibatis.io.DefaultVFS 248 findJarForResource - Not a JAR: file:/Users/kingdelee/IdeaProjects/eweb/sgg_mybatis_project/MyBatis_03_mapper/target/classes/com/atguigu/mybatis/dao/DepartmentMapper.class
+2019-01-07 at 03:22:56 CST DEBUG org.apache.ibatis.io.DefaultVFS 102 list - Reader entry: ����   7  	 
+2019-01-07 at 03:22:56 CST DEBUG org.apache.ibatis.io.DefaultVFS 222 findJarForResource - Find JAR URL: file:/Users/kingdelee/IdeaProjects/eweb/sgg_mybatis_project/MyBatis_03_mapper/target/classes/com/atguigu/mybatis/dao/DepartmentMapper.xml
+2019-01-07 at 03:22:56 CST DEBUG org.apache.ibatis.io.DefaultVFS 248 findJarForResource - Not a JAR: file:/Users/kingdelee/IdeaProjects/eweb/sgg_mybatis_project/MyBatis_03_mapper/target/classes/com/atguigu/mybatis/dao/DepartmentMapper.xml
+2019-01-07 at 03:22:56 CST DEBUG org.apache.ibatis.io.DefaultVFS 102 list - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+2019-01-07 at 03:22:56 CST DEBUG org.apache.ibatis.io.DefaultVFS 222 findJarForResource - Find JAR URL: file:/Users/kingdelee/IdeaProjects/eweb/sgg_mybatis_project/MyBatis_03_mapper/target/classes/com/atguigu/mybatis/dao/EmployeeMapper.class
+2019-01-07 at 03:22:56 CST DEBUG org.apache.ibatis.io.DefaultVFS 248 findJarForResource - Not a JAR: file:/Users/kingdelee/IdeaProjects/eweb/sgg_mybatis_project/MyBatis_03_mapper/target/classes/com/atguigu/mybatis/dao/EmployeeMapper.class
+2019-01-07 at 03:22:56 CST DEBUG org.apache.ibatis.io.DefaultVFS 102 list - Reader entry: ����   7 % # $ getEmpByLastNameLikeReturnMap #(Ljava/lang/String;)Ljava/util/Map; 	Signature Z(Ljava/lang/String;)Ljava/util/Map<Ljava/lang/String;Lcom/atguigu/mybatis/bean/Employee;>; RuntimeVisibleAnnotations &Lorg/apache/ibatis/annotations/MapKey; value lastName getEmpByIdReturnMap $(Ljava/lang/Integer;)Ljava/util/Map; J(Ljava/lang/Integer;)Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>; getEmpsByLastNameLike $(Ljava/lang/String;)Ljava/util/List; I(Ljava/lang/String;)Ljava/util/List<Lcom/atguigu/mybatis/bean/Employee;>; getEmpByMap 4(Ljava/util/Map;)Lcom/atguigu/mybatis/bean/Employee; Z(Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)Lcom/atguigu/mybatis/bean/Employee; getEmpByIdAndLastName J(Ljava/lang/Integer;Ljava/lang/String;)Lcom/atguigu/mybatis/bean/Employee; "RuntimeVisibleParameterAnnotations %Lorg/apache/ibatis/annotations/Param; id 
+2019-01-07 at 03:22:56 CST DEBUG org.apache.ibatis.io.DefaultVFS 222 findJarForResource - Find JAR URL: file:/Users/kingdelee/IdeaProjects/eweb/sgg_mybatis_project/MyBatis_03_mapper/target/classes/com/atguigu/mybatis/dao/EmployeeMapper.xml
+2019-01-07 at 03:22:56 CST DEBUG org.apache.ibatis.io.DefaultVFS 248 findJarForResource - Not a JAR: file:/Users/kingdelee/IdeaProjects/eweb/sgg_mybatis_project/MyBatis_03_mapper/target/classes/com/atguigu/mybatis/dao/EmployeeMapper.xml
+2019-01-07 at 03:22:56 CST DEBUG org.apache.ibatis.io.DefaultVFS 102 list - Reader entry: <?xml version="1.0" encoding="UTF-8" ?>
+2019-01-07 at 03:22:56 CST DEBUG org.apache.ibatis.io.DefaultVFS 222 findJarForResource - Find JAR URL: file:/Users/kingdelee/IdeaProjects/eweb/sgg_mybatis_project/MyBatis_03_mapper/target/classes/com/atguigu/mybatis/dao/EmployeeMapperAnnotation.class
+2019-01-07 at 03:22:56 CST DEBUG org.apache.ibatis.io.DefaultVFS 248 findJarForResource - Not a JAR: file:/Users/kingdelee/IdeaProjects/eweb/sgg_mybatis_project/MyBatis_03_mapper/target/classes/com/atguigu/mybatis/dao/EmployeeMapperAnnotation.class
+2019-01-07 at 03:22:56 CST DEBUG org.apache.ibatis.io.DefaultVFS 102 list - Reader entry: ����   7 
+2019-01-07 at 03:22:56 CST DEBUG org.apache.ibatis.io.DefaultVFS 222 findJarForResource - Find JAR URL: file:/Users/kingdelee/IdeaProjects/eweb/sgg_mybatis_project/MyBatis_03_mapper/target/classes/com/atguigu/mybatis/dao/EmployeeMapperPlus.class
+2019-01-07 at 03:22:56 CST DEBUG org.apache.ibatis.io.DefaultVFS 248 findJarForResource - Not a JAR: file:/Users/kingdelee/IdeaProjects/eweb/sgg_mybatis_project/MyBatis_03_mapper/target/classes/com/atguigu/mybatis/dao/EmployeeMapperPlus.class
+2019-01-07 at 03:22:56 CST DEBUG org.apache.ibatis.io.DefaultVFS 102 list - Reader entry: ����   7    
+2019-01-07 at 03:22:56 CST DEBUG org.apache.ibatis.io.DefaultVFS 222 findJarForResource - Find JAR URL: file:/Users/kingdelee/IdeaProjects/eweb/sgg_mybatis_project/MyBatis_03_mapper/target/classes/com/atguigu/mybatis/dao/EmployeeMapperPlus.xml
+2019-01-07 at 03:22:56 CST DEBUG org.apache.ibatis.io.DefaultVFS 248 findJarForResource - Not a JAR: file:/Users/kingdelee/IdeaProjects/eweb/sgg_mybatis_project/MyBatis_03_mapper/target/classes/com/atguigu/mybatis/dao/EmployeeMapperPlus.xml
+2019-01-07 at 03:22:56 CST DEBUG org.apache.ibatis.io.DefaultVFS 102 list - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+2019-01-07 at 03:22:56 CST DEBUG org.apache.ibatis.io.ResolverUtil 256 addIfMatching - Checking to see if class com.atguigu.mybatis.dao.DepartmentMapper matches criteria [is assignable to Object]
+2019-01-07 at 03:22:56 CST DEBUG org.apache.ibatis.io.ResolverUtil 256 addIfMatching - Checking to see if class com.atguigu.mybatis.dao.EmployeeMapper matches criteria [is assignable to Object]
+2019-01-07 at 03:22:56 CST DEBUG org.apache.ibatis.io.ResolverUtil 256 addIfMatching - Checking to see if class com.atguigu.mybatis.dao.EmployeeMapperAnnotation matches criteria [is assignable to Object]
+2019-01-07 at 03:22:56 CST DEBUG org.apache.ibatis.io.ResolverUtil 256 addIfMatching - Checking to see if class com.atguigu.mybatis.dao.EmployeeMapperPlus matches criteria [is assignable to Object]
+2019-01-07 at 03:22:56 CST DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction 137 openConnection - Opening JDBC Connection
+2019-01-07 at 03:22:56 CST DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource 398 popConnection - Checked out connection 1801704517 from pool.
+2019-01-07 at 03:22:56 CST DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction 101 setDesiredAutoCommit - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@6b63d445]
+2019-01-07 at 03:22:56 CST DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger 159 debug - ==>  Preparing: select * from tbl_employee where id=? 
+2019-01-07 at 03:22:56 CST DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger 159 debug - ==> Parameters: 1(Integer)
+2019-01-07 at 03:22:57 CST TRACE org.apache.ibatis.logging.jdbc.BaseJdbcLogger 165 trace - <==    Columns: id, last_name, gender, email, d_id
+2019-01-07 at 03:22:57 CST TRACE org.apache.ibatis.logging.jdbc.BaseJdbcLogger 165 trace - <==        Row: 1, tom, 0, tom@atguigu.com, 1
+2019-01-07 at 03:22:57 CST DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger 159 debug - <==      Total: 1
+2019-01-07 at 03:22:57 CST DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction 123 resetAutoCommit - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@6b63d445]
+2019-01-07 at 03:22:57 CST DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction 91 close - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@6b63d445]
+2019-01-07 at 03:22:57 CST DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource 363 pushConnection - Returned connection 1801704517 to pool.

@@ -276,9 +276,32 @@ public class MyBatisTest {
 			Employee employee = mapper.getEmpByIdStep2(2);
 			System.out.println(employee.toString());
 			System.out.println(employee.getDept());
+
+			Employee employee2 = mapper.getEmpByIdStep2(2);
+			System.out.println(employee == employee2);
 		}finally{
 			openSession.close();
 		}
 	}
+
+	@Test
+	public void test08() throws IOException{
+		SqlSessionFactory sqlSessionFactory = getSqlSessionFactory();
+		SqlSession openSession = sqlSessionFactory.openSession();
+
+		try{
+			EmployeeMapperPlus mapper = openSession.getMapper(EmployeeMapperPlus.class);
+//			Department department = mapper.getDeptByIdPlus(1);
+//			System.out.println(department);
+//			System.out.println(department.getEmps());
+
+			Employee emp01 = mapper.getEmpById(1);
+			System.out.println(emp01);
+
+		}finally{
+			openSession.close();
+		}
+	}
+
 
 }
